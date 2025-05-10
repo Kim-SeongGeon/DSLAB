@@ -1,0 +1,96 @@
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\VSM.exe.config
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\VSM.exe
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\VSM.pdb
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.csproj.AssemblyReference.cache
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.vsmWindow.resources
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.Properties.Resources.resources
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.csproj.GenerateResource.cache
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.exe
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.pdb
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.Core.dll
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.CRC.dll
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.Interfaces.dll
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.ValueTuple.dll
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.Core.xml
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.CRC.xml
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.Data.HashFunction.Interfaces.xml
+C:\Users\pa543\Desktop\c#\VSM\bin\Debug\System.ValueTuple.xml
+C:\Users\pa543\Desktop\c#\VSM\obj\Debug\VSM.csproj.CopyComplete
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe.config
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\VSM.pdb
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.dll
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.dll
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.dll
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.dll
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.xml
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.xml
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.xml
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.xml
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.AssemblyReference.cache
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.vsmWindow.resources
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.Properties.Resources.resources
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.GenerateResource.cache
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CopyComplete
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.exe
+C:\Users\pa543\Documents\카카오톡 받은 파일\VSM_v0.2\VSM\VSM\obj\Debug\VSM.pdb
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe.config
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.pdb
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.dll
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.dll
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.dll
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.dll
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.xml
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.xml
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.xml
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.xml
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.AssemblyReference.cache
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.SuggestedBindingRedirects.cache
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.vsmWindow.resources
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.Properties.Resources.resources
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.GenerateResource.cache
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CopyComplete
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.exe
+C:\Users\pa543\Downloads\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.pdb
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe.config
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.pdb
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.dll
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.dll
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.dll
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.dll
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.xml
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.xml
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.xml
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.xml
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.AssemblyReference.cache
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.vsmWindow.resources
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.Properties.Resources.resources
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.GenerateResource.cache
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CopyComplete
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.exe
+C:\Users\pa543\Desktop\VSM_v0.3\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.pdb
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe.config
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.exe
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\VSM.pdb
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.dll
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.dll
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.dll
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.dll
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Core.xml
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.CRC.xml
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.Data.HashFunction.Interfaces.xml
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\bin\Debug\System.ValueTuple.xml
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.AssemblyReference.cache
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.vsmWindow.resources
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.Properties.Resources.resources
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.GenerateResource.cache
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CoreCompileInputs.cache
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.csproj.CopyComplete
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.exe
+C:\Users\minsung\Desktop\VSM_v0.3.1\VSM_v0.2\VSM_v0.2\VSM\VSM\obj\Debug\VSM.pdb

@@ -1,0 +1,65 @@
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.exe.config
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.exe
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.pdb
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data.csproj.AssemblyReference.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.Properties.Resources.resources
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data.csproj.GenerateResource.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.exe
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.pdb
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data.csproj.CopyComplete
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.SCM.resources
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.Setting.resources
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe.config
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.pdb
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.AssemblyReference.cache
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.SuggestedBindingRedirects.cache
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.SCM.resources
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Properties.Resources.resources
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Setting.resources
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.GenerateResource.cache
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.CoreCompileInputs.cache
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.CopyComplete
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.exe
+C:\Users\pa543\OneDrive\문서\카카오톡 받은 파일\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.pdb
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe.config
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.pdb
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.AssemblyReference.cache
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.SCM.resources
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Properties.Resources.resources
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Setting.resources
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.GenerateResource.cache
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.CoreCompileInputs.cache
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_d.0F4417B9.Up2Date
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.exe
+C:\Users\minsung\Documents\카카오톡 받은 파일\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.pdb
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe.config
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.exe
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\xplane_data_test.pdb
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.AssemblyReference.cache
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.SCM.resources
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Properties.Resources.resources
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.Setting.resources
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.GenerateResource.cache
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.CoreCompileInputs.cache
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.exe
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data_test.pdb
+C:\Users\minsung\Desktop\SCM_v0.2\SCM_v0.1\SCM_v0.1\obj\Debug\xplane_data.csproj.CopyComplete

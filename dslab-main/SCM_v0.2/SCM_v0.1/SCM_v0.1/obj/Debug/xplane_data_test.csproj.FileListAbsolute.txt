@@ -1,0 +1,10 @@
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.exe.config
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.exe
+C:\Users\pa543\Desktop\c#\xplane_data_test\bin\Debug\xplane_data_test.pdb
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.csproj.AssemblyReference.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.Form1.resources
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.Properties.Resources.resources
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.csproj.GenerateResource.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.csproj.CoreCompileInputs.cache
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.exe
+C:\Users\pa543\Desktop\c#\xplane_data_test\obj\Debug\xplane_data_test.pdb
