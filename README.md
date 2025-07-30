@@ -33,7 +33,7 @@ Therefore, we are considering using **Google Earth** instead.
 
 > 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section above.
 
----
+
 
 Currently, the map in Mission Planner displays a red aircraft icon.  
 However, since our research focuses on ground robots, we wanted to change the icon to one that better suits our application.
@@ -41,3 +41,6 @@ However, since our research focuses on ground robots, we wanted to change the ic
 We searched through all the image files in both the Mission Planner and ArduPilot directories we downloaded, but couldn't find the relevant icon file.  
 As a result, we posted a question on the ArduPilot community site and received help from other users:  
 > 👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
+
+---
+
