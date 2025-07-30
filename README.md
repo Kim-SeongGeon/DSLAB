@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
 
-Record our DS LAB PROJECT
+Record our DS LAB PROJECT✍️
 
 ## July 29, 2025
 
