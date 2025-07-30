@@ -4,6 +4,23 @@
 
 Record our DS LAB PROJECT✍️
 
+### 🏅 Publication & Award
+
+**🗓 July 11, 2025 — Best Paper Award**  
+We presented our research on a UAV control verification system using simulation with standard protocol application, and received the **Best Paper Award** at the 2025 Summer Conference hosted by the Korean Society of Computer Information (KSCI).
+
+📄 **Paper Title:** *Implementation of a Simulation-Based UAV Control Verification System Applying Standard Protocols*  
+🧑‍🔬 **Authors:** SeongGeon Kim, SoJeong Kim, UkGyun Ha (Kyungwoon University)  
+🏛 **Hosted by:** Korean Society of Computer Information (KSCI), 2025 Summer Conference
+<details>
+<summary🗓 July 11, 2025 — Best Paper Award></summary>
+  <p align="left">
+  <!--<img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">-->
+  <img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
+  <br>
+  <em>Figure 1. Current aircraft symbol display in Mission Planner.</em>
+</details>
+
 ## July 29, 2025
 
 ### 📝 Todo List (07/29/2025)
