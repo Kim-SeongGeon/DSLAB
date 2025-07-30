@@ -34,14 +34,19 @@ Therefore, we are considering using **Google Earth** instead.
 
 > 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section above.
 
-
-
 Currently, the map in Mission Planner displays a red aircraft icon.  
 However, since our research focuses on ground robots, we wanted to change the icon to one that better suits our application.
 
 We searched through all the image files in both the Mission Planner and ArduPilot directories we downloaded, but couldn't find the relevant icon file.  
 As a result, we posted a question on the ArduPilot community site and received help from other users:  
 > 👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
+
+### ✅ Conclusion
+
+We plan to integrate Google Earth to maintain smooth real-time visualization of the vehicle’s movement without data loss, as achieved with the current setup.
+
+Although we followed the guidance from the ArduPilot community and searched for the related icon file, it was not visible in the provided directories.  
+Nonetheless, we will continue investigating and aim to successfully locate the icon file in order to replace it with a custom symbol that better fits our ground robot application.
 
 ---
 
