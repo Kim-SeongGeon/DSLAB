@@ -20,7 +20,8 @@ Record our DS LAB PROJECT
 <details>
 <summary>🖼️ Mission Planner Map Display</summary>
   <p align="left">
-  <img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">
+  <!--<img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">-->
+  <img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
   <br>
   <em>Figure 1. Current aircraft symbol display in Mission Planner.</em>
 </details>
@@ -30,7 +31,7 @@ Currently, the map in Mission Planner uses the 2025 Google Map.
 However, when zoomed in, the image becomes too pixelated to be practical for use with actual robots.  
 Therefore, we are considering using **Google Earth** instead.
 
-> 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section below.
+> 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section above.
 
 ---
 
