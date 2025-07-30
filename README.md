@@ -9,12 +9,16 @@ Record our DS LAB PROJECT
 
 - [x] Check the scale of the map in Mission Planner.
 - [x] Check whether the aircraft symbol displayed on the map in Mission Planner can be changed to a custom icon.
-<!-- -->
+<!-- Markdown에서 체크박스는 다음과 같이 표시합니다:
+
+[ ] → 아직 안 한 항목 (빈 체크박스)
+
+[x] → 완료한 항목 (체크된 박스) -->
 
 
 ### 📌 Notes
 <details>
-<summary>🖼️ Map Display Example</summary>
+<summary>🖼️ Mission Planner Map Display</summary>
   <p align="left">
   <img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">
   <br>
@@ -35,4 +39,4 @@ However, since our research focuses on ground robots, we wanted to change the ic
 
 We searched through all the image files in both the Mission Planner and ArduPilot directories we downloaded, but couldn't find the relevant icon file.  
 As a result, we posted a question on the ArduPilot community site and received help from other users:  
-👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
+> 👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
