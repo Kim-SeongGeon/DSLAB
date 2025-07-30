@@ -1,11 +1,11 @@
 # DS LAB PROJECT
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Welcome!&fontSize=40" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Welcome!🛫&fontSize=40" />
 Record our DS LAB PROJECT
 
 ## July 29, 2025
 
-### 📝 Todo List (2025-07-29)
+### 📝 Todo List (07/29/2025)
 
 - [x] Check the scale of the map in Mission Planner.
 - [x] Check whether the aircraft symbol displayed on the map in Mission Planner can be changed to a custom icon.
@@ -27,3 +27,12 @@ However, when zoomed in, the image becomes too pixelated to be practical for use
 Therefore, we are considering using **Google Earth** instead.
 
 > 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section below.
+
+---
+
+Currently, the map in Mission Planner displays a red aircraft icon.  
+However, since our research focuses on ground robots, we wanted to change the icon to one that better suits our application.
+
+We searched through all the image files in both the Mission Planner and ArduPilot directories we downloaded, but couldn't find the relevant icon file.  
+As a result, we posted a question on the ArduPilot community site and received help from other users:  
+👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
