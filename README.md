@@ -4,7 +4,28 @@
 
 ## Record our DS LAB PROJECT✍️
 
+## June 24, 2025
+
+### 📝 Todo List (06/24/2025)
+
+- [x] Measurement of data loss rate between X-Plane and Mission Planner communication.
+
+### 📌 Notes
+The connection between X-Plane and Mission Planner has been partially successful, and since this is essential content to be included in the paper, it must be measured.  
+Therefore, the measurement was based on a flight from Daegu Airport to Incheon Airport.  
+
+<details>
+<summary>📉 Ping RTT & Data Loss Rate Graph</summary>
+  <p align="left">
+    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
+    <br>
+    <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
+  </p>
+</details>
+
 <p><br></p>
+
+---
 
 ### 📆 Timeline Notice
 
@@ -30,26 +51,7 @@ To ensure transparency in our development process, the following periods reflect
 </details>
 - **July 14 – 18, 2025:** Participated in the SW Startup Camp focused on tech-based startup development
 
----
-
-## June 24, 2025
-
-### 📝 Todo List (06/24/2025)
-
-- [x] Measurement of data loss rate between X-Plane and Mission Planner communication.
-
-### 📌 Notes
-The connection between X-Plane and Mission Planner has been partially successful, and since this is essential content to be included in the paper, it must be measured.  
-Therefore, the measurement was based on a flight from Daegu Airport to Incheon Airport.  
-
-<details>
-<summary>📉 Ping RTT & Data Loss Rate Graph</summary>
-  <p align="left">
-    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
-    <br>
-    <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
-  </p>
-</details>
+<p><br></p>
 
 ---
 
@@ -70,6 +72,8 @@ We presented our research on a UAV control verification system using simulation 
   <br>
   <em>ㄴ Certificate of Best Paper Award from KSCI, July 2025.</em>
 </details>
+
+<p><br></p>
 
 ---
 
@@ -116,6 +120,8 @@ We plan to integrate Google Earth to maintain smooth real-time visualization of 
 
 Although we followed the guidance from the ArduPilot community and searched for the related icon file, it was not visible in the provided directories.  
 Nonetheless, we will continue investigating and aim to successfully locate the icon file in order to replace it with a custom symbol that better fits our ground robot application.
+
+<p><br></p>
 
 ---
 
