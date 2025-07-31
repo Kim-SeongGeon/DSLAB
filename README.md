@@ -4,6 +4,8 @@
 
 ## Record our DS LAB PROJECT✍️
 
+<p><br></p>
+
 ## June 24, 2025
 
 ### 📝 Todo List (06/24/2025)
