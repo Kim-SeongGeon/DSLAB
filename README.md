@@ -15,7 +15,7 @@ To ensure transparency in our development process, the following periods reflect
   <p align="left">
   <img src="https://github.com/user-attachments/assets/ff3647de-16ce-4be9-878d-a8a867414b0b" width="517" height="751" alt="KSCI-Hackathon" >
   <br>
-  <em>Figure 1. Poster for the 2025 KSCI Hackathon held at Jeju National University.</em>
+  <em>ㄴ Poster for the 2025 KSCI Hackathon held at Jeju National University.</em>
 </details>
 - **July 8 – 11, 2025:** Participated in the KSCI-Hackathon and presented at the KSCI 2025 Summer Conference
 
@@ -26,9 +26,30 @@ To ensure transparency in our development process, the following periods reflect
   <p align="left">
   <img src="https://github.com/user-attachments/assets/7893966c-60c3-457f-87a4-1cfcf9589871" width="517" height="751" alt=SW Startup Camp" >
   <br>
-  <em>Figure 1. Poster for the 2025 SW Startup Camp held at Hyundai Haesang Hi-Vision Center, Gwangju.</em>
+  <em>ㄴ Poster for the 2025 SW Startup Camp held at Hyundai Haesang Hi-Vision Center, Gwangju.</em>
 </details>
 - **July 14 – 18, 2025:** Participated in the SW Startup Camp focused on tech-based startup development
+
+---
+
+## June 24, 2025
+
+### 📝 Todo List (07/29/2025)
+
+- [x] Measurement of data loss rate between X-Plane and Mission Planner communication.
+
+### 📌 Notes
+The connection between X-Plane and Mission Planner has been partially successful, and since this is essential content to be included in the paper, it must be measured.  
+Therefore, the measurement was based on a flight from Daegu Airport to Incheon Airport.  
+
+<details>
+<summary>📉 Ping RTT & Data Loss Rate Graph</summary>
+  <p align="left">
+    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="1202" height="668" alt="데이터손실률">
+    <br>
+    <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
+  </p>
+</details>
 
 ---
 
@@ -47,7 +68,7 @@ We presented our research on a UAV control verification system using simulation 
   <p align="left">
   <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="517" height="751" alt="2025_1 우수논문상" >
   <br>
-  <em>Figure 1. Certificate of Best Paper Award from KSCI, July 2025.</em>
+  <em>ㄴ Certificate of Best Paper Award from KSCI, July 2025.</em>
 </details>
 
 ---
@@ -72,7 +93,7 @@ We presented our research on a UAV control verification system using simulation 
   <!--<img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">-->
   <img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
   <br>
-  <em>Figure 1. Current aircraft symbol display in Mission Planner.</em>
+  <em>ㄴ Current aircraft symbol display in Mission Planner.</em>
 </details>
 
 Currently, the map in Mission Planner uses the 2025 Google Map.
