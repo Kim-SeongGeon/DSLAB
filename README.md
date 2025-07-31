@@ -6,6 +6,23 @@
 
 <p><br></p>
 
+## June 18, 2025
+
+### 📝 Todo List (06/18/2025)
+
+- [x] Comparison of bidirectional data exchange between X-Plane and Mission Planner.
+
+### 📌 Notes
+Currently, the connection between X-Plane and Mission Planner has been successfully established, and upon visual inspection of the simulation, there appear to be no major issues.
+
+### ✅ Conclusion
+
+Although no major issues are observed through visual inspection at present, data loss may occur in areas that are not visible, making it necessary to measure the data loss rate.
+
+<p><br></p>
+
+---
+
 ## June 24, 2025
 
 ### 📝 Todo List (06/24/2025)
