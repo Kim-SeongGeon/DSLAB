@@ -13,7 +13,7 @@ To ensure transparency in our development process, the following periods reflect
 <details>
 <summary>KSCI-Hackathon</summary>
   <p align="left">
-  <img src="https://github.com/user-attachments/assets/ff3647de-16ce-4be9-878d-a8a867414b0b" width="517" height="751" alt="KSCI-Hackathon" >
+  <img src="https://github.com/user-attachments/assets/ff3647de-16ce-4be9-878d-a8a867414b0b" width="420" height="580" alt="KSCI-Hackathon" >
   <br>
   <em>ㄴ Poster for the 2025 KSCI Hackathon held at Jeju National University.</em>
 </details>
@@ -24,7 +24,7 @@ To ensure transparency in our development process, the following periods reflect
 <details>
 <summary>SW Startup Camp</summary>
   <p align="left">
-  <img src="https://github.com/user-attachments/assets/7893966c-60c3-457f-87a4-1cfcf9589871" width="517" height="751" alt=SW Startup Camp" >
+  <img src="https://github.com/user-attachments/assets/7893966c-60c3-457f-87a4-1cfcf9589871" width="420" height="580" alt=SW Startup Camp" >
   <br>
   <em>ㄴ Poster for the 2025 SW Startup Camp held at Hyundai Haesang Hi-Vision Center, Gwangju.</em>
 </details>
@@ -34,7 +34,7 @@ To ensure transparency in our development process, the following periods reflect
 
 ## June 24, 2025
 
-### 📝 Todo List (07/29/2025)
+### 📝 Todo List (06/24/2025)
 
 - [x] Measurement of data loss rate between X-Plane and Mission Planner communication.
 
@@ -45,7 +45,7 @@ Therefore, the measurement was based on a flight from Daegu Airport to Incheon A
 <details>
 <summary>📉 Ping RTT & Data Loss Rate Graph</summary>
   <p align="left">
-    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="1202" height="668" alt="데이터손실률">
+    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
     <br>
     <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
   </p>
@@ -66,7 +66,7 @@ We presented our research on a UAV control verification system using simulation 
 <details>
 <summary>🏅 Best Paper Award – KSCI 2025 Summer Conference</summary>
   <p align="left">
-  <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="517" height="751" alt="2025_1 우수논문상" >
+  <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="420" height="580" alt="2025_1 우수논문상" >
   <br>
   <em>ㄴ Certificate of Best Paper Award from KSCI, July 2025.</em>
 </details>
