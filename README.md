@@ -2,7 +2,35 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
 
-Record our DS LAB PROJECT✍️
+## Record our DS LAB PROJECT✍️
+
+<p><br></p>
+
+### 📆 Timeline Notice
+
+To ensure transparency in our development process, the following periods reflect temporary pauses in research activity due to external academic and entrepreneurial events:
+
+<details>
+<summary>KSCI-Hackathon</summary>
+  <p align="left">
+  <img src="https://github.com/user-attachments/assets/ff3647de-16ce-4be9-878d-a8a867414b0b" width="517" height="751" alt="KSCI-Hackathon" >
+  <br>
+  <em>Figure 1. Poster for the 2025 KSCI Hackathon held at Jeju National University.</em>
+</details>
+- **July 8 – 11, 2025:** Participated in the KSCI-Hackathon and presented at the KSCI 2025 Summer Conference
+
+<p><br></p>
+
+<details>
+<summary>SW Startup Camp</summary>
+  <p align="left">
+  <img src="https://github.com/user-attachments/assets/7893966c-60c3-457f-87a4-1cfcf9589871" width="517" height="751" alt=SW Startup Camp" >
+  <br>
+  <em>Figure 1. Poster for the 2025 SW Startup Camp held at Hyundai Haesang Hi-Vision Center, Gwangju.</em>
+</details>
+- **July 14 – 18, 2025:** Participated in the SW Startup Camp focused on tech-based startup development
+
+---
 
 ## July 11, 2025
 
@@ -18,7 +46,6 @@ We presented our research on a UAV control verification system using simulation 
 <summary>🏅 Best Paper Award – KSCI 2025 Summer Conference</summary>
   <p align="left">
   <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="517" height="751" alt="2025_1 우수논문상" >
-
   <br>
   <em>Figure 1. Certificate of Best Paper Award from KSCI, July 2025.</em>
 </details>
