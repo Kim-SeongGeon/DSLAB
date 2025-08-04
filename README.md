@@ -6,9 +6,9 @@
 
 <p><br></p>
 
-## June 18, 2025
+## June 11, 2025
 
-### 📝 Todo List (06/18/2025)
+### 📝 Todo List (06/11/2025)
 
 - [x] Comparison of bidirectional data exchange between X-Plane and Mission Planner.
 
@@ -23,9 +23,9 @@ Although no major issues are observed through visual inspection at present, data
 
 ---
 
-## June 24, 2025
+## June 20, 2025
 
-### 📝 Todo List (06/24/2025)
+### 📝 Todo List (06/20/2025)
 
 - [x] Measurement of data loss rate between X-Plane and Mission Planner communication.
 
