@@ -156,7 +156,7 @@ SIL 시뮬레이션과 프로토콜 변환은 그 목적을 달성하기 위한 
 하지만 확대했을 때 이미지가 너무 픽셀화되어 실제 로봇 활용에는 비실용적입니다.
 따라서 Google Earth 사용을 고려 중입니다.
 
-> 📷 Reference: For an example image, please refer to the 🖼️ Map Display Example section above.
+> 📷 참조: 이미지 예시는 위의 🖼️ 지도 표시 예시 섹션을 참조하세요.
 
 현재 Mission Planner에서 붉은 항공기 아이콘이 표시되고 있지만, 연구는 지상 로봇에 초점을 두고 있기 때문에 연구 목적에 더 적합한 아이콘으로 변경하고자 합니다.
 
