@@ -46,6 +46,43 @@ Therefore, the measurement was based on a flight from Daegu Airport to Incheon A
 
 ---
 
+## June 2 - 20, 2025
+
+### 📝 Todo List (06/02–06/20/2025)
+
+- [x] Drafting and revising the conference paper for KSCI 2025 Summer Conference
+- [x] Resolving research direction and title structure based on advisor's feedback
+
+### 📌 Notes
+During this period, we focused on drafting and refining our conference paper titled:
+“Implementation of a Simulation-Based UAV Control Verification System Applying Standard Protocols”
+for submission to the KSCI 2025 Summer Conference.
+
+Throughout the writing process, we encountered and resolved several key issues based on the constructive guidance from our academic advisor: 
+
+1. Title Clarity
+> “A paper’s title should be nearly half of the abstract.”  
+To make the research purpose immediately recognizable, we revised the title to better reflect the central contribution of the work:  
+managing UAVs with different protocols via a single GCS.
+
+2. Clarifying Purpose vs. Method  
+Our advisor emphasized the importance of distinguishing research purpose from research method:
+> “Our core research aim is to manage UAVs with different protocols using a unified GCS.  
+The SIL simulation and protocol conversion are tools to achieve that goal — not the goal itself.”
+
+3. Iterative Refinement  
+Based on the above feedback, we restructured the abstract and introduction to clearly emphasize the problem of multi-GCS inefficiency and proposed our STANAG-4586–based VSM as the key solution.
+
+### 📄 Paper Summary
+- Purpose: Address the inefficiency of requiring multiple GCSs for multiple UAVs by proposing a unified control system using protocol conversion.
+- Approach: Develop a VSM (Vehicle Specific Module) for converting between different UAV communication protocols and integrate it into a simulation-based SIL (Software-In-the-Loop) environment using X-Plane and Mission Planner.
+- Verification: Demonstrated real-time communication, packet conversion, and stability between simulated UAVs and GCS through visual inspection and data transmission verification.
+- Outcome: Validated the feasibility of applying protocol standardization (STANAG-4586) to support diverse UAV control, with future expansion planned toward ground robot integration.
+
+<p><br></p>
+
+---
+
 ### 📆 Timeline Notice
 
 To ensure transparency in our development process, the following periods reflect temporary pauses in research activity due to external academic and entrepreneurial events:
