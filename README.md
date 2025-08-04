@@ -119,7 +119,7 @@ To ensure transparency in our development process, the following periods reflect
 We presented our research on a UAV control verification system using simulation with standard protocol application, and received the **Best Paper Award** at the 2025 Summer Conference hosted by the Korean Society of Computer Information (KSCI).
 
 📄 **Paper Title:** *Implementation of a Simulation-Based UAV Control Verification System Applying Standard Protocols*  
-🧑‍🔬 **Authors:** SeongGeon Kim, SoJeong Kim, UkGyun Ha (Kyungwoon University)  
+🧑‍🔬 **Authors:** SoJeong Kim, SeongGeon Kim, UkGyun Ha (Kyungwoon University)  
 🏛 **Hosted by:** Korean Society of Computer Information (KSCI), 2025 Summer Conference
 <details>
 <summary>🏅 Best Paper Award – KSCI 2025 Summer Conference</summary>
