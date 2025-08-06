@@ -2,9 +2,24 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
 
-## Record our DS LAB PROJECT✍️
+## 🧠 About DS LAB PROJECT
+The DS LAB PROJECT is a research initiative aimed at implementing real-time bidirectional communication between a UGV (Unmanned Ground Vehicle), Mission Planner, and X-Plane.
+This project focuses on designing and controlling communication based on the STANAG 4586 standard protocol, while analyzing communication stability and data loss rates across various simulation environments.
+
+### 🎯 Key Objectives
+- Design and implementation of a UGV communication protocol based on STANAG 4586
+- Experimental setup for real-time data exchange between X-Plane and Mission Planner
+- Measurement and analysis of data loss during communication
+- Visualization and stabilization of the ground robot control system
+
+### 🧰 Tools
+- Simulation Tools: X-Plane, Mission Planner
+- Protocol: STANAG-4586
+- Language: Python, C++
 
 <p><br></p>
+
+---
 
 ## June 11, 2025
 
