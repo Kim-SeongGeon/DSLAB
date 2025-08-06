@@ -181,3 +181,50 @@ Nonetheless, we will continue investigating and aim to successfully locate the i
 
 ---
 
+## August 5, 2025
+
+### 📝 Todo List (08/05/2025)
+
+- [x] Find and edit the file that contains the aircraft icon displayed on the Mission Planner map.
+
+### 📌 Notes
+
+Despite checking all image files (PNG and JPG) within the ArduPilot and Mission Planner folders on the C: drive, I couldn’t find anything that looked like it.  
+ㄴ I read through the comments on my question on the ArduPilot Discourse site, but I still couldn't find it, likely because the person who replied is using a different environment:  
+> 👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
+
+### ✅ Conclusions
+
+I found the aircraft image file that needs to be changed on the official ArduPilot Mission Planner GitHub. 
+> 👉 [MissionPlanner/Resources/planetracker.png](https://github.com/ArduPilot/MissionPlanner/blob/master/Resources/planetracker.png)
+
+So, in case any related GitHub files were installed on the PC with Mission Planner, I need to replace the image and check if it's correctly reflected on the Mission Planner map.   
+=> After confirming that the change is applied, I’ll probably need to link Mission Planner with Google Earth
+
+<p><br></p>
+
+---
+
+## August 9, 2025
+
+### 📝 Todo List (08/06/2025)
+
+- [x] Research on how to change the Mission Planner icon
+- [ ] Replace the current 2025 Google Map displayed in the Mission Planner map with a Google Earth integration
+
+### 📌 Notes
+
+설치된 Mission Planner 실행 버전에서는 planetracker.png 파일이 리소스에 포함되어 있지만, 일반적인 탐색기로는 직접 확인이 불가.   
+=> planetracker.png 파일은 Mission Planner 실행 파일 내부의 리소스로 임베디드(내장)되어 있기 때문.  
+
+설치된 Mission Planner 폴더에서는 planetracker.png가 별도로 존재하지 않고, 대신 MissionPlanner.exe 내부에 포함되어 실행 중에 동적으로 불러와서 사용.
+
+### ✅ 결론
+
+해결될 거 같은 방법으로는 Mission Planner 소스를 직접 수정해서 새로 빌드하는 것이 베스트라고 생각함.   
+1. GitHub에서 Mission Planner 전체 소스를 클론 :
+> bash  
+> git clone https://github.com/ArduPilot/MissionPlanner.git
+
+2. Resources/planetracker.png 파일을 원하는 이미지로 교체
+3. Visual Studio에서 빌드 (필요하다면 필요한 SDK 설치 필요)
