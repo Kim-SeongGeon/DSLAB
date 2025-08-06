@@ -229,17 +229,18 @@ So, in case any related GitHub files were installed on the PC with Mission Plann
 
 ### 📌 Notes
 
-설치된 Mission Planner 실행 버전에서는 planetracker.png 파일이 리소스에 포함되어 있지만, 일반적인 탐색기로는 직접 확인이 불가.   
-=> planetracker.png 파일은 Mission Planner 실행 파일 내부의 리소스로 임베디드(내장)되어 있기 때문.  
+In the installed version of Mission Planner, the planetracker.png file is included as a resource, but it cannot be accessed directly through a regular file explorer.  
+=> This is because planetracker.png is embedded as an internal resource within the Mission Planner executable file.  
 
-설치된 Mission Planner 폴더에서는 planetracker.png가 별도로 존재하지 않고, 대신 MissionPlanner.exe 내부에 포함되어 실행 중에 동적으로 불러와서 사용.
+In the installed Mission Planner folder, planetracker.png does not exist as a separate file. Instead, it is embedded within MissionPlanner.exe and dynamically loaded during runtime.
 
-### ✅ 결론
+### ✅ Conclusions
 
-해결될 거 같은 방법으로는 Mission Planner 소스를 직접 수정해서 새로 빌드하는 것이 베스트라고 생각함.   
-1. GitHub에서 Mission Planner 전체 소스를 클론 :
+It seems that the most effective approach would be to modify the Mission Planner source code and build it from scratch.  
+
+1. Clone the full Mission Planner repository from GitHub :
 > bash  
 > git clone https://github.com/ArduPilot/MissionPlanner.git
 
-2. Resources/planetracker.png 파일을 원하는 이미지로 교체
-3. Visual Studio에서 빌드 (필요하다면 필요한 SDK 설치 필요)
+2. Replace the Resources/planetracker.png file with the desired image
+3. Build the project in Visual Studio (install any required SDKs if necessary)
