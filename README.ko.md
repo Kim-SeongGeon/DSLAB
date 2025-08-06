@@ -179,7 +179,6 @@ ArduPilot 커뮤니티의 지침을 따르고 관련 아이콘 파일을 찾으�
 ### 📝 할 일 (2025‑08‑05)
 
 - [x] Mission Planner 맵에 표시된 항공기 아이콘이 들어있는 파일 찾고 수정.
-- [ ] 현재 Mission Planner 맵에 표시되고 있는 2025 Google Map 대신 Google Earth 연동.
 
 ### 📌 메모
 
@@ -189,5 +188,36 @@ Windows C 드라이브 쪽에 Ardupilot과 Mission Planner 파일 내에 png 혹
 
 ### ✅ 결론
 
-Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이미지 파일을 찾음. 그래서 Mission Planner 설치 때 혹시나 PC 내에 같이 설치된 Github를 찾아보고 있다면 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함.   
+Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이미지 파일을 찾음. 
+> 👉 [MissionPlanner/Resources/planetracker.png](https://github.com/ArduPilot/MissionPlanner/blob/master/Resources/planetracker.png)
+
+그래서 Mission Planner 설치 때 혹시나 PC 내에 같이 설치된 Github를 찾아보고 있다면 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함.   
 => 바뀌는 거 확인 후 Mission Planner <-> Google Earth 연동해야할 듯
+
+<p><br></p>
+
+---
+
+## 2025년 8월 6일
+
+### 📝 할 일 (2025‑08‑06)
+
+- [ ] Mission Planner 아이콘 변경 방법 관련 조사
+- [ ] 현재 Mission Planner 맵에 표시되고 있는 2025 Google Map 대신 Google Earth 연동.
+
+### 📌 메모
+
+설치된 Mission Planner 실행 버전에서는 planetracker.png 파일이 리소스에 포함되어 있지만, 일반적인 탐색기로는 직접 확인이 불가.   
+=> planetracker.png 파일은 Mission Planner 실행 파일 내부의 리소스로 임베디드(내장)되어 있기 때문.  
+
+설치된 Mission Planner 폴더에서는 planetracker.png가 별도로 존재하지 않고, 대신 MissionPlanner.exe 내부에 포함되어 실행 중에 동적으로 불러와서 사용.
+
+### ✅ 결론
+
+해결될 거 같은 방법으로는 Mission Planner 소스를 직접 수정해서 새로 빌드하는 것이 베스트라고 생각함.   
+1. GitHub에서 Mission Planner 전체 소스를 클론 :
+> bash  
+> git clone https://github.com/ArduPilot/MissionPlanner.git
+
+2. Resources/planetracker.png 파일을 원하는 이미지로 교체
+3. Visual Studio에서 빌드 (필요하다면 필요한 SDK 설치 필요)
