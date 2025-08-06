@@ -1,6 +1,6 @@
 # DS LAB 프로젝트
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=지상%20로봇%기술의%20미래를%20설계하다!%20🤖&fontSize=35" />
 
 ## 🧠 DS LAB 프로젝트에 대해서
 DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 Mission Planner, X-Plane 간의 실시간 양방향 통신을 구현하기 위한 연구 프로젝트입니다.
