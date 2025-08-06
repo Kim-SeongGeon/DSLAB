@@ -189,5 +189,5 @@ Windows C 드라이브 쪽에 Ardupilot과 Mission Planner 파일 내에 png 혹
 
 ### ✅ 결론
 
-Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이미지 파일을 찾음. 그래서 Mission Planner 설치 때 혹시나 PC내에 같이 설치된 Github를 찾아보고 있다면 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함. 
+Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이미지 파일을 찾음. 그래서 Mission Planner 설치 때 혹시나 PC 내에 같이 설치된 Github를 찾아보고 있다면 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함.   
 => 바뀌는 거 확인 후 Mission Planner <-> Google Earth 연동해야할 듯
