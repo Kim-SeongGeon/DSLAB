@@ -202,7 +202,7 @@ Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이�
 
 ### 📝 할 일 (2025‑08‑06)
 
-- [ ] Mission Planner 아이콘 변경 방법 관련 조사
+- [x] Mission Planner 아이콘 변경 방법 관련 조사
 - [ ] 현재 Mission Planner 맵에 표시되고 있는 2025 Google Map 대신 Google Earth 연동.
 
 ### 📌 메모
