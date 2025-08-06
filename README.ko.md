@@ -2,9 +2,24 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
 
-## 우리의 DS LAB 프로젝트 기록✍️✍
+## 🧠 DS LAB 프로젝트에 대해서
+DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 Mission Planner, X-Plane 간의 실시간 양방향 통신을 구현하기 위한 연구 프로젝트입니다.
+본 프로젝트는 STANAG-4586 표준 프로토콜 기반의 통신 설계 및 제어를 목표로 하며, 다양한 시뮬레이션 환경에서 통신 안정성과 데이터 손실률 등을 분석합니다.
+
+### 🎯 주요 목표
+- STANAG-4586 기반 UGV 통신 프로토콜 설계 및 구현
+- X-Plane과 Mission Planner 간의 실시간 데이터 교환 실험
+- 통신 중 발생하는 데이터 손실률 측정 및 분석
+- 지상 로봇 제어 시스템의 시각화 및 안정성 확보
+
+### 🧰 사용 기술
+- 시뮬레이션 도: X-Plane, Mission Planner
+- 통신 프로토콜: STANAG-4586
+- 사용 언어: Python, C++
 
 <p><br></p>
+
+---
 
 ## 2025년 6월 11일
 
