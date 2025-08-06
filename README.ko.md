@@ -13,7 +13,7 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 Mission Planner, X-Plane
 - 지상 로봇 제어 시스템의 시각화 및 안정성 확보
 
 ### 🧰 사용 기술
-- 시뮬레이션 도: X-Plane, Mission Planner
+- 시뮬레이션 도구: X-Plane, Mission Planner
 - 통신 프로토콜: STANAG-4586
 - 사용 언어: Python, C++
 
