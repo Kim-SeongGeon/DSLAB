@@ -1,6 +1,6 @@
 # DS LAB PROJECT
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics🤖&fontSize=35" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics!%20🤖&fontSize=35" />
 
 ## 🧠 About DS LAB PROJECT
 The DS LAB PROJECT is a research initiative aimed at implementing real-time bidirectional communication between a UGV (Unmanned Ground Vehicle), Mission Planner, and X-Plane.
