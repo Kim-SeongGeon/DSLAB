@@ -140,7 +140,6 @@ SIL 시뮬레이션과 프로토콜 변환은 그 목적을 달성하기 위한 
 
 [x] → 완료한 항목 (체크된 박스) -->
 
-
 ### 📌 메모
 <details>
 <summary>🖼️ Mission Planner 지도 화면</summary>
@@ -179,4 +178,16 @@ ArduPilot 커뮤니티의 지침을 따르고 관련 아이콘 파일을 찾으�
 
 ### 📝 할 일 (2025‑08‑05)
 
-Windows C 드라이브 파일이 아닌 Mission Planner 설치 때 연동되는 github 내에 있어서 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함. => 바뀌는 거 확인 후 Mission Planner <-> Google Earth 연동해야할 듯듯
+- [x] Mission Planner 맵에 표시된 항공기 아이콘이 들어있는 파일 찾고 수정.
+- [ ] 현재 Mission Planner 맵에 표시되고 있는 2025 Google Map 대신 Google Earth 연동.
+
+### 📌 메모
+
+Windows C 드라이브 쪽에 Ardupilot과 Mission Planner 파일 내에 png 혹은 jpg 파일을 다 살펴봤지만, 비슷한 것도 나오지 않음.  
+ㄴ Ardupilot Disourse 사이트에 질문을 남겨서 달아준 댓글들을 봤지만 댓글 달아준 사용자와 환경이 달라서인지 찾지 못했음:  
+> 👉 [ArduPilot Forum Discussion – Changing Vehicle Icon in Mission Planner](https://discuss.ardupilot.org/t/how-to-change-icon-in-mission-planner-map/137234)
+
+### ✅ 결론
+
+Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이미지 파일을 찾음. 그래서 Mission Planner 설치 때 혹시나 PC내에 같이 설치된 Github를 찾아보고 있다면 바꿔보고 Mission Planner map에도 잘 나오는지 확인해야 함. 
+=> 바뀌는 거 확인 후 Mission Planner <-> Google Earth 연동해야할 듯
