@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=지상%20로봇%기술의%20미래를%20설계하다!%20🤖&fontSize=35" />
 
 ## 🧠 DS LAB 프로젝트에 대해서
-DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 Mission Planner, X-Plane 간의 실시간 양방향 통신을 구현하기 위한 연구 프로젝트입니다.
+DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양방향 통신을 구현하기 위한 연구 프로젝트입니다.
 본 프로젝트는 STANAG-4586 표준 프로토콜 기반의 통신 설계 및 제어를 목표로 하며, 다양한 시뮬레이션 환경에서 통신 안정성과 데이터 손실률 등을 분석합니다.
 
 ### 🎯 주요 목표
