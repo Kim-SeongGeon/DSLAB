@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=Mapping%20the%20Future%20of%20Ground%20Robotics!%20🤖&fontSize=35" />
 
 ## 🧠 About DS LAB PROJECT
-The DS LAB PROJECT is a research initiative aimed at implementing real-time bidirectional communication between a UGV (Unmanned Ground Vehicle), Mission Planner, and X-Plane.
+The DS LAB PROJECT is a research initiative aimed at implementing real-time bidirectional communication between a UGV (Unmanned Ground Vehicle) and GCS.
 This project focuses on designing and controlling communication based on the STANAG 4586 standard protocol, while analyzing communication stability and data loss rates across various simulation environments.
 
 ### 🎯 Key Objectives
