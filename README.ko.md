@@ -218,7 +218,6 @@ Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이�
 ### 📝 할 일 (2025‑08‑06)
 
 - [x] Mission Planner 아이콘 변경 방법 관련 조사
-- [ ] 현재 Mission Planner 맵에 표시되고 있는 2025 Google Map 대신 Google Earth 연동.
 
 ### 📌 메모
 
@@ -236,3 +235,21 @@ Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이�
 
 2. Resources/planetracker.png 파일을 원하는 이미지로 교체
 3. Visual Studio에서 빌드 (필요하다면 필요한 SDK 설치 필요)
+
+<p><br></p>
+
+---
+
+## 2025년 8월 7일
+
+### 📝 할 일 (2025‑08‑07)
+
+- [X] 웹 기반 GCS 코드 분석
+- [X] 소형 로봇 제작에 필요한 장비 준비
+
+### 📌 메모
+
+금일 참여기업과 미팅 후에 Mission Planner와 X-Plane 연동은 성공했으니 그것을 기반으로 실전에 도입하여 GCS 및 로봇 연동을 하면 될 것 같다고 하셨음!  
+Mission Planner로 사용했던 GCS 부분은 참여기업에서 만들어둔 웹 기반으로 프론트엔드는 React, 백엔드는 Spring Boot 그리고 DB는 MYSQL로 개발되어있는 것을 기반으로 개발을 이어나갈 것임.  
+실제 사용할 로봇은 기업에서 관리를 하고 이동이 어려운 관계로 학교 랩실 내에서 소형로봇을 제작하여 그것을 실제 사용할 로봇과 최대한 똑같은 환경으로 세팅해서 개발할 계획(젯슨 나노, 앞뒤양옆 젯슨 나노용 카메라, LTE GPS 모듈, ROS2)  
+GCS는 디스플레이 두 개로 나눠서 보여줄 예정(아래 그림 참고 - 곧 프로토타입 이미지 삽입할 예정)
