@@ -15,7 +15,7 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
 ### 🧰 사용 기술
 - 시뮬레이션 도구: X-Plane, Mission Planner
 - 통신 프로토콜: STANAG-4586
-- 사용 언어: Python, C++
+- 사용 언어: Python, C#, JavaScrpit, React, Spring Boot, MySQL
 
 <p><br></p>
 
