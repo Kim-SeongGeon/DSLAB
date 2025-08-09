@@ -15,7 +15,7 @@ This project focuses on designing and controlling communication based on the STA
 ### 🧰 Tools
 - Simulation Tools: X-Plane, Mission Planner
 - Protocol: STANAG-4586
-- Language: Python, C++
+- Language: Python, C#, JavaScrpit, React, Spring Boot, MySQL
 
 <p><br></p>
 
