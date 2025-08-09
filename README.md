@@ -220,12 +220,11 @@ So, in case any related GitHub files were installed on the PC with Mission Plann
 
 ---
 
-## August 9, 2025
+## August 6, 2025
 
 ### 📝 Todo List (08/06/2025)
 
 - [x] Research on how to change the Mission Planner icon
-- [ ] Replace the current 2025 Google Map displayed in the Mission Planner map with a Google Earth integration
 
 ### 📌 Notes
 
@@ -244,3 +243,30 @@ It seems that the most effective approach would be to modify the Mission Planner
 
 2. Replace the Resources/planetracker.png file with the desired image
 3. Build the project in Visual Studio (install any required SDKs if necessary)
+
+<p><br></p>
+
+---
+
+## August 7, 2025
+
+### 📝 Todo List (08/07/2025)
+
+- [x] Web-based GCS code analysis
+- [x] Prepare equipment for building a small robot
+
+### 📌 Notes
+
+- In today’s meeting with the participating company, we confirmed the successful integration of Mission Planner with X-Plane. Based on this, we received feedback that GCS and robot integration would be feasible in real-world deployment.
+- Instead of continuing with the existing Mission Planner-based GCS, we plan to proceed with development using the web-based GCS developed by the participating company.
+  - Frontend: **React**
+  - Backend: **Spring Boot**
+  - Database: **MySQL**
+- The actual robot is managed by the company and cannot be easily transported → We will build a small robot in the lab.
+  - Setup environment: **Jetson Nano, front/rear/left/right cameras (for Jetson Nano), LTE GPS module, ROS2**
+  - The setup will replicate the actual robot environment as closely as possible.
+- The GCS will be configured with a dual-display setup (prototype images to be added later).
+
+<p><br></p>
+
+---
