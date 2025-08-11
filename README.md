@@ -141,13 +141,9 @@ We presented our research on a UAV control verification system using simulation 
 📄 **Paper Title:** *Implementation of a Simulation-Based UAV Control Verification System Applying Standard Protocols*  
 🧑‍🔬 **Authors:** SoJeong Kim, SeongGeon Kim, UkGyun Ha (Kyungwoon University)  
 🏛 **Hosted by:** Korean Society of Computer Information (KSCI), 2025 Summer Conference
-<details>
-<summary>🏅 Best Paper Award – KSCI 2025 Summer Conference</summary>
-  <p align="left">
-  <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="420" height="580" alt="2025_1 우수논문상" >
-  <br>
-  <em>ㄴ Certificate of Best Paper Award from KSCI, July 2025.</em>
-</details>
+
+<img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="420" height="580" alt="2025_1 우수논문상" >
+- Certificate of Best Paper Award from KSCI, July 2025
 
 <p><br></p>
 
@@ -228,14 +224,8 @@ Based on the above feedback, we restructured the abstract and introduction to cl
 The connection between X-Plane and Mission Planner has been partially successful, and since this is essential content to be included in the paper, it must be measured.  
 Therefore, the measurement was based on a flight from Daegu Airport to Incheon Airport.  
 
-<details>
-<summary>📉 Ping RTT & Data Loss Rate Graph</summary>
-  <p align="left">
-    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
-    <br>
-    <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
-  </p>
-</details>
+<img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
+- Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner
 
 <p><br></p>
 
