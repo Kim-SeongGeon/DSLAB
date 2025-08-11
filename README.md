@@ -104,7 +104,7 @@ So, in case any related GitHub files were installed on the PC with Mission Plann
 
 ### 📌 Notes
 <img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
-- Current aircraft symbol display in Mission Planner
+- Mission Planner's Current Aircraft Icon Display Screen
 
 Currently, the map in Mission Planner uses the 2025 Google Map.
 
