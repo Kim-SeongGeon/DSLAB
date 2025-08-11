@@ -103,14 +103,9 @@ Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이�
 - [x] Mission Planner 맵에 표시된 항공기 아이콘을 사용자 지정 아이콘으로 변경 가능한지 확인.
 
 ### 📌 메모
-<details>
-<summary>🖼️ Mission Planner 지도 화면</summary>
-  <p align="left">
-  <!--<img src="https://github.com/user-attachments/assets/68ca9f17-48d9-4877-9081-39726e4cbfd0" width="580" height="500" alt="MP">-->
-  <img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
-  <br>
-  <em>ㄴ Mission Planner의 현재 항공기 아이콘 표시 화면.</em>
-</details>
+
+<img src="https://github.com/user-attachments/assets/c564c51c-6e7c-4e95-bc4d-441373c15987" width="580" height="420" alt="MP+UBUNTU" >
+- 🖼️ Mission Planner의 현재 항공기 아이콘 표시 화면
 
 현재 Mission Planner의 지도로는 2025년 Google Map이 사용되고 있습니다.
 
@@ -143,17 +138,12 @@ ArduPilot 커뮤니티의 지침을 따르고 관련 아이콘 파일을 찾으�
 **🗓 2025년 7월 11일 — 우수 논문상 수상**  
 표준 프로토콜 적용 시뮬레이션 기반 UAV 제어 검증 시스템에 대한 연구를 발표했고, 한국컴퓨터정보학회(KSCI) 2025년 여름 학술대회에서 우수 논문상을 수상했습니다.
 
-📄 **논문 제목:** *Implementation of a Simulation-Based UAV Control Verification System Applying Standard Protocols*  
+📄 **논문 제목:** *표준 프로토콜 적용을 위한 시뮬레이션 기반 UAV 제어 검증 시스템 구현*  
 🧑‍🔬 **저자:** 김소정, 김성건, 하옥균 (경운대학교)  
 🏛 **주최:** 한국컴퓨터정보학회(KSCI), 2025 여름 학술대회
 
-<details>
-<summary>🏅 우수 논문상 – KSCI 2025 여름 학술대회</summary>
-  <p align="left">
-  <img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="420" height="580" alt="2025_1 우수논문상" >
-  <br>
-  <em>ㄴ 2025년 7월, KSCI에서 수여한 우수 논문상 인증서.</em>
-</details>
+<img src="https://github.com/user-attachments/assets/3cad90ab-c0cc-487e-a3a0-e26faae8d7b6" width="420" height="580" alt="2025_1 우수논문상" >
+- 2025년 7월, KSCI에서 수여한 우수 논문상 상장
 
 <p><br></p>
 
@@ -228,14 +218,8 @@ SIL 시뮬레이션과 프로토콜 변환은 그 목적을 달성하기 위한 
 X‑Plane과 Mission Planner 간 연결은 부분적으로 성공했으며, 이는 논문에 포함되어야 할 핵심 내용이므로 반드시 측정해야 합니다.
 따라서 대구공항에서 인천공항까지의 비행을 기반으로 측정을 진행했습니다.  
 
-<details>
-<summary>📉 핑 RTT 및 데이터 손실률 그래프</summary>
-  <p align="left">
-    <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
-    <br>
-    <em>ㄴ Graph showing Ping RTT and Data Loss Rate during flight simulation from Daegu to Incheon using X-Plane and Mission Planner.</em>
-  </p>
-</details>
+<img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
+- 📉 핑 RTT 및 데이터 손실률 그래프
 
 <p><br></p>
 
