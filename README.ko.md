@@ -101,11 +101,6 @@ Ardupilot Mission Planner 공식(?) Github에서 바꿔야 하는 비행체 이�
 
 - [x] Mission Planner에서 지도의 축척 확인.
 - [x] Mission Planner 맵에 표시된 항공기 아이콘을 사용자 지정 아이콘으로 변경 가능한지 확인.
-<!-- Markdown에서 체크박스는 다음과 같이 표시합니다:
-
-[ ] → 아직 안 한 항목 (빈 체크박스)
-
-[x] → 완료한 항목 (체크된 박스) -->
 
 ### 📌 메모
 <details>
