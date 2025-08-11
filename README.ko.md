@@ -219,7 +219,7 @@ X‑Plane과 Mission Planner 간 연결은 부분적으로 성공했으며, 이�
 따라서 대구공항에서 인천공항까지의 비행을 기반으로 측정을 진행했습니다.  
 
 <img src="https://github.com/user-attachments/assets/8cfac926-1902-4d20-8c34-0ba0ff40d2fb" width="580" height="420" alt="데이터손실률">
-- 📉 핑 RTT 및 데이터 손실률 그래프
+- X-Plane과 미션 플래너를 사용하여 대구에서 인천까지의 비행 시뮬레이션 중 핑 RTT와 데이터 손실률을 나타내는 그래프
 
 <p><br></p>
 
