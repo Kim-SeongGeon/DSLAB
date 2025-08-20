@@ -21,6 +21,20 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
 
 ---
 
+## 2025년 8월 20일
+
+### 📝 할 일 (2025‑08‑20)
+
+- [X]
+
+### 📌 메모
+
+### ✅ 결론
+
+<p><br></p>
+
+---
+
 ## 2025년 8월 13일
 
 ### 📝 할 일 (2025‑08‑13)
@@ -39,8 +53,11 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
   - DB 연동 실패 (초기 설정값 누락 또는 접근 권한 문제)  
   - CORS 정책 충돌 등  
 - 이후 서버를 정상적으로 실행하고 프론트엔드를 확인해보니, 기업 측에서 사용 중인 시스템과 우리가 개발 중인 GCS의 방향성이 달라 사용하지 않는 오디오 / 비디오 스트리밍 기능은 과감히 제거하고, 우리의 지상 관제용 GCS 인터페이스에 맞게 화면을 일부 수정할 계획임.
+<img width="420" height="580" alt="참여 기업 측 GCS 화면" src="https://github.com/user-attachments/assets/e2d818a5-5408-4da7-afd7-984692e8efe2" />
+- 참여 기업 측 GCS 화면
+
 - 현재 GCS 프로토타입 구성에 필요한 이미지 정리 완료.
-<img width="580" height="1080" alt="스크린샷 2025-08-20 162830" src="https://github.com/user-attachments/assets/02a135d5-bf99-403e-a5fa-307110aa35a3" />
+<img width="420" height="580" alt="GCS 프로토타입" src="https://github.com/user-attachments/assets/02a135d5-bf99-403e-a5fa-307110aa35a3" />
 - 🛰️ GCS 프로토타입
 
 ### ✅ 결론
