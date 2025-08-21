@@ -21,6 +21,39 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## August 20, 2025
+
+### 📝 To-Do (2025‑08‑20)
+
+- [X] Reconfigured the GCS prototype to fit the small robot platform environment
+- [X] Modified parts of the GCS structure (updated display layout)
+- [X] Reviewed the existing autonomous robot OS and evaluated potential new robot platforms for purchase
+
+### 📌 Notes
+
+- The GCS prototype built last week was originally designed for four camera streams (front, rear, left, and right). However, the currently available small robot platform only supports two cameras—front and rear.
+- Therefore, the Real Streaming component in the GCS has been adjusted to support only two channels: Front and Back.
+<img width="420" height="580" alt="Screenshot 2025-08-21 132109" src="https://github.com/user-attachments/assets/94ce3a06-d757-430d-8dfa-16207ca8c90d" />  
+- Latest prototype image reflecting the changes
+
+- Additionally, the GCS display structure was initially planned as a dual-display setup, but for operational efficiency and compatibility with deployment environments, we are transitioning to a single-display layout with tab switching functionality.
+> 🔧 Additional system configuration checks:
+> - Confirm whether the OS installed on the autonomous robot used last year was based on ROS2
+> - Verify if the new small robot platform being considered supports ROS2 builds and provides the necessary interface for the current research objectives    
+> → The robot specifications will be organized and shared later    
+> https://www.eduino.kr/product/detail.html?product_no=9619&cate_no=181&display_group=1
+
+### ✅ Conclusion
+
+- The GCS prototype has been successfully redesigned for a two-channel streaming setup in line with current hardware conditions
+- The display structure is being updated to a tab-switching layout to enhance the user experience
+- The GCS is being designed to scale flexibly to four-channel streaming in the future if additional cameras are integrated
+- Evaluation of robot platforms is in progress to determine whether to reuse the existing system or adopt a new platform
+
+<p><br></p>
+
+---
+
 ## August 13, 2025
 
 ### 📝 To-Do (2025‑08‑13)
