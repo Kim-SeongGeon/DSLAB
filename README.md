@@ -23,7 +23,7 @@ This project focuses on designing and controlling communication based on the STA
 
 ## August 20, 2025
 
-### 📝 To-Do (2025‑08‑20)
+### 📝 To-Do (08/20/2025)
 
 - [X] Reconfigured the GCS prototype to fit the small robot platform environment
 - [X] Modified parts of the GCS structure (updated display layout)
@@ -56,7 +56,7 @@ This project focuses on designing and controlling communication based on the STA
 
 ## August 13, 2025
 
-### 📝 To-Do (2025‑08‑13)
+### 📝 To-Do (08/13/2025)
 
 - [X] Locally built the backend code provided by the participating company
 - [X] Verified connection with the frontend after server launch
