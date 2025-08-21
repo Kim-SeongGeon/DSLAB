@@ -21,6 +21,41 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## August 13, 2025
+
+### 📝 To-Do (2025‑08‑13)
+
+- [X] Locally built the backend code provided by the participating company
+- [X] Verified connection with the frontend after server launch
+- [X] Removed audio/video features not compatible with our GCS and updated the frontend accordingly
+- [X] Set up the prototype layout for the GCS
+
+### 📌 Notes
+
+- Encountered various issues while building the backend code locally, but most have been resolved:
+  - Port conflicts
+  - Package dependency errors due to mismatched Node.js versions
+  - Missing .env environment variables
+  - Database connection failures (due to missing initial config or access permissions)
+  - CORS policy conflicts, etc.
+- After running the server successfully and checking the frontend, we noticed that the company's system differs from the direction of our Ground Control System (GCS). Therefore, we decided to remove unused audio/video streaming features and plan to revise the UI to better fit our ground control interface.
+<img width="420" height="580" alt="참여 기업 측 GCS 화면" src="https://github.com/user-attachments/assets/e2d818a5-5408-4da7-afd7-984692e8efe2" />  
+- GCS interface used by the company
+
+- Image assets required for the current GCS prototype have been organized.
+<img width="420" height="580" alt="GCS 프로토타입" src="https://github.com/user-attachments/assets/02a135d5-bf99-403e-a5fa-307110aa35a3" />
+- 🛰️ GCS Prototype
+
+### ✅ Conclusion
+
+- Most issues with the backend build have been resolved; the server runs successfully in the local environment
+- Analyzing the frontend structure is more critical than initially expected; we plan to customize it by focusing only on the necessary features
+- The foundation for the GCS prototype has been established → Next steps include gradual improvements in UI/UX design
+
+<p><br></p>
+
+---
+
 ## August 7, 2025
 
 ### 📝 Todo List (08/07/2025)
