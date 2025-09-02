@@ -21,10 +21,37 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## August 27, 2025
+
+### 📝 To-Do (08/27/2025)
+- [X] Modify the configuration of robot information displayed on the first page of the GCS (object ID, GPS location, speed, battery level, mode, etc.)
+- [X] Partially revise the UI structure and data display method of the GCS website
+- [X] Decide on the purchase of a new robot
+
+### 📌 Notes
+- The first screen of the GCS currently under development is being designed to display key status information of the robot in real time, including object ID, GPS coordinates, current speed, battery level, and operating mode.
+- Previously, this information was presented as a simple list of text, but we are planning to switch to a table-based visual layout to improve user-friendliness and readability.
+<img width="420" height="580" alt="3차 프로토타입" src="https://github.com/user-attachments/assets/5dcfcd3c-5f2e-4557-a5a0-583abb9535bb" /> 
+- Prototype image with modified robot information layout
+<img width="420" height="580" alt="수정한 GCS" src="https://github.com/user-attachments/assets/a271854e-8027-4533-95d5-9cd68556f189" />
+- Image of the GCS developed so far
+
+- In addition, upon inspecting the previously secured autonomous vehicle, we found partial hardware damage and confirmed that its operating system is not compatible with the ROS2 environment.
+- As it was deemed unsuitable for our research and development purposes (such as GCS integration, real-time control, and streaming), we decided to purchase a new robot.
+
+### ✅ Conclusion
+- The robot information display on the main screen of the GCS is being improved with a UI that considers both real-time performance and readability.
+- The existing autonomous vehicle was deemed incompatible with the direction of our research, leading to the decision to replace it with a new robot.
+- The selected robot is optimized for a ROS2-based development environment, which is expected to offer advantages in future testing and scalability.
+- Moving forward, we plan to enhance GCS functionality by focusing on data table visualization and real-time streaming of sensor data.
+
+<p><br></p>
+
+---
+
 ## August 20, 2025
 
 ### 📝 To-Do (08/20/2025)
-
 - [X] Reconfigured the GCS prototype to fit the small robot platform environment
 - [X] Modified parts of the GCS structure (updated display layout)
 - [X] Reviewed the existing autonomous robot OS and evaluated potential new robot platforms for purchase
