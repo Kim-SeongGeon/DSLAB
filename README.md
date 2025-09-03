@@ -21,14 +21,50 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## September 3, 2025
+
+### 📝 To-Do (08/27/2025)
+
+- [X] Completed GCS main page layout
+- [X] Prototype layout of Operaion page completed
+
+### 📌 Notes
+
+- Based on the GCS prototype layout created last week, the main page has been completed.
+   - → Includes a section that displays real-time robot information in a table format.  
+
+<img width="420" height="580" alt="GCS_25 09 02" src="https://github.com/user-attachments/assets/6bfdd38d-3aeb-4248-9d17-a1c0f2896915" /> - GCS Main Page UI Image
+
+- Further review is needed to determine whether directional information such as azimuth should be included alongside GPS coordinates in the robot information table on the main page.
+   - → Considering whether directional data would be visually helpful for users and whether it would complicate the UI.
+- A test is planned to check whether real-time data from the MySQL database can be fetched and displayed in each section of the configured main page.
+   - → Currently, only the database connection is established; API integration and real-time update logic are still in development.
+- Additionally, an Operation page displaying footage from the depth camera mounted on the robot will be designed in line with the overall prototype flow.
+   - → Muttiple factors to consider, such as the actual video streaming path, display method (UI), and transition triggers.  
+
+<img width="420" height="580" alt="3차 프로토타입(operation)" src="https://github.com/user-attachments/assets/811032f4-5686-4d2b-9350-3360ca40ed5e" /> - GCS Operation Page Prototype Image
+
+### ✅ Conclusion
+
+- The UI layout of the GCS main page has been completed, and detailed implementation is underway for real-time data integration and display methods.
+- A key remaining task is to determine the scalability of the robot information table (GPS + directional data) and to test real-time data display using a MySQL-based system.
+- For the Operation page, the implementation will begin by maintaining the existing prototype concept while refining the actual video data flow and its integration with the UI.
+- The next phase of development will focus on data integration logic and video streaming tests.
+
+<p><br></p>
+
+---
+
 ## August 27, 2025
 
 ### 📝 To-Do (08/27/2025)
+
 - [X] Modify the configuration of robot information displayed on the first page of the GCS (object ID, GPS location, speed, battery level, mode, etc.)
 - [X] Partially revise the UI structure and data display method of the GCS website
 - [X] Decide on the purchase of a new robot
 
 ### 📌 Notes
+
 - The first screen of the GCS currently under development is being designed to display key status information of the robot in real time, including object ID, GPS coordinates, current speed, battery level, and operating mode.
 - Previously, this information was presented as a simple list of text, but we are planning to switch to a table-based visual layout to improve user-friendliness and readability.
 <img width="420" height="580" alt="3차 프로토타입" src="https://github.com/user-attachments/assets/5dcfcd3c-5f2e-4557-a5a0-583abb9535bb" /> 
@@ -40,6 +76,7 @@ This project focuses on designing and controlling communication based on the STA
 - As it was deemed unsuitable for our research and development purposes (such as GCS integration, real-time control, and streaming), we decided to purchase a new robot.
 
 ### ✅ Conclusion
+
 - The robot information display on the main screen of the GCS is being improved with a UI that considers both real-time performance and readability.
 - The existing autonomous vehicle was deemed incompatible with the direction of our research, leading to the decision to replace it with a new robot.
 - The selected robot is optimized for a ROS2-based development environment, which is expected to offer advantages in future testing and scalability.
@@ -52,6 +89,7 @@ This project focuses on designing and controlling communication based on the STA
 ## August 20, 2025
 
 ### 📝 To-Do (08/20/2025)
+
 - [X] Reconfigured the GCS prototype to fit the small robot platform environment
 - [X] Modified parts of the GCS structure (updated display layout)
 - [X] Reviewed the existing autonomous robot OS and evaluated potential new robot platforms for purchase
