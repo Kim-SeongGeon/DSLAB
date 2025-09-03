@@ -33,6 +33,7 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
 - 지난주에 제작한 GCS 프로토타입 레이아웃을 기반으로, 메인 페이지 구성을 완료함.
    - → 실시간 로봇 정보를 표 형식으로 표시하는 영역 포함.
 <img width="420" height="580" alt="GCS_25 09 02" src="https://github.com/user-attachments/assets/6bfdd38d-3aeb-4248-9d17-a1c0f2896915" />
+- GCS 메인 페이지 UI 이미지
 
 - 메인 페이지 내 로봇 정보 표에는 GPS 좌표 외에도, 방위각 등 방향 정보를 함께 표기해야 하는지 여부에 대해 추가 검토가 필요함.
    - → 사용자에게 방향 정보가 시각적으로 유용할지, UI가 복잡해지지 않는지 고려 중. 
@@ -41,6 +42,7 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
 - 추가로, 로봇에 장착된 뎁스 카메라의 영상을 보여주는 Operaion 페이지도 전체 프로토타입 흐름에 맞춰 설계 예정.
    - → 실제 영상 스트리밍 경로, 디스플레이 방식(UI), 전환 트리거 등 고려사항 많음.
 <img width="420" height="580" alt="3차 프로토타입(operation)" src="https://github.com/user-attachments/assets/811032f4-5686-4d2b-9350-3360ca40ed5e" />
+- GCS 작업 페이지 프로토타입 이미지
  
  ### ✅ 결론
 
@@ -66,7 +68,7 @@ DS LAB 프로젝트는 **UGV(무인 지상 차량)**와 GCS 간의 실시간 양
 - 현재 개발 중인 GCS의 첫 화면에서는 로봇의 주요 상태 정보(객체 ID, GPS 좌표, 현재 속도, 배터리 잔량, 작동 모드 등)를 실시간으로 확인할 수 있도록 구성 중임.
 - 기존에는 단순 텍스트 나열 방식이었으나, 사용자 친화성과 가독성을 위해 테이블 기반 시각화 구조로 전화하려고 계획 중임.
 <img width="420" height="580" alt="3차 프로토타입" src="https://github.com/user-attachments/assets/5dcfcd3c-5f2e-4557-a5a0-583abb9535bb" />
-- 로봇 정보 구성 수정한 프로토타입 이미지
+- 로봇 정보 구성 수정한 메인 페이지 프로토타입 이미지
 <img width="420" height="580" alt="수정한 GCS" src="https://github.com/user-attachments/assets/a271854e-8027-4533-95d5-9cd68556f189" />
 - 현재까지 개발된 GCS 이미지
 
