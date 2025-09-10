@@ -15,8 +15,8 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 - **GCS(Ground Control Station) 개발**을 통한 다중 UGV 통합 관제 기능 구현  
 
 ### 🧰 도구
-- 시뮬레이션 도구: X-Plane, Mission Planner  
-- 프로토콜: STANAG-4586  
+- **시뮬레이션 도구**: X-Plane, Mission Planner  
+- **프로토콜**: STANAG-4586, MAVLink, ROS2
 
 ### 🛠 기술 스택
 **프로그래밍 언어**  
