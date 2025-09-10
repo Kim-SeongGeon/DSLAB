@@ -12,10 +12,25 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 - 통신 중 발생하는 데이터 손실률 측정 및 분석
 - 지상 로봇 제어 시스템의 시각화 및 안정성 확보
 
-### 🧰 사용 기술
-- 시뮬레이션 도구: X-Plane, Mission Planner
-- 통신 프로토콜: STANAG-4586
-- 사용 언어: Python, C#, JavaScrpit, React, Spring Boot, MySQL
+### 🧰 도구
+- 시뮬레이션 도구: X-Plane, Mission Planner  
+- 프로토콜: STANAG-4586  
+
+### 🛠 기술 스택
+**프로그래밍 언어**  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+**프레임워크 & 라이브러리**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+
+**데이터베이스**  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
 
 <p><br></p>
 
