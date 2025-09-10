@@ -15,8 +15,8 @@ This project focuses on designing and controlling communication based on the STA
 - Develop a **Ground Control Station (GCS)** to implement integrated control of multiple UGVs  
 
 ### 🧰 Tools
-- Simulation Tools: X-Plane, Mission Planner
-- Protocol: STANAG-4586
+- **Simulation Tools**: X-Plane, Mission Planner
+- **Protocol**: STANAG-4586, MAVLink, ROS2
 
 ### 🛠 Tech Stack
 **Languages**  
