@@ -6,11 +6,13 @@
 The DS LAB PROJECT is a research initiative aimed at implementing real-time bidirectional communication between multiple UGV (Unmanned Ground Vehicle) and GCS.
 This project focuses on designing and controlling communication based on the STANAG 4586 standard protocol, while analyzing communication stability and data loss rates across various simulation environments.
 
-### 🎯 Key Objectives
-- Design and implementation of a UGV communication protocol based on STANAG 4586
-- Experimental setup for real-time data exchange between X-Plane and Mission Planner
-- Measurement and analysis of data loss during communication
-- Visualization and stabilization of the ground robot control system
+### 🎯 Main Objectives
+- Design and implement a STANAG-4586-based UGV communication protocol  
+- Enhance real-time mission management and data monitoring through integration with VSM and SCM modules  
+- Conduct real-time data exchange experiments between X-Plane and Mission Planner  
+- Measure and analyze data loss rates during communication  
+- Ensure visualization and stability of the ground robot control system  
+- Develop a **Ground Control Station (GCS)** to implement integrated control of multiple UGVs  
 
 ### 🧰 Tools
 - Simulation Tools: X-Plane, Mission Planner
