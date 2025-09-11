@@ -1,5 +1,8 @@
 # DS LAB 프로젝트
 
+[![KR](https://img.shields.io/badge/README-한국어-blue)](./README.ko.md)
+[![EN](https://img.shields.io/badge/README-English-red)](./README.md)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=413fd9&height=150&section=header&text=지상%20로봇%기술의%20미래를%20설계하다!%20🤖&fontSize=35" />
 
 ## 🧠 DS LAB 프로젝트에 대해서
