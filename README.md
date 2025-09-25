@@ -44,6 +44,33 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## September 18, 2025
+
+### 📝 To-Do (09/18/2025)
+
+- [X] Designed and populated a test database
+- [X] Verified GCS main page integration with database (preliminary test prior to robot communication)
+
+### 📌 Notes
+
+- To validate the data integration structure of the GCS in advance, a test MySQL database was designed and set up, including 50 sample entries.
+<img width="420" height="580" alt="DB_25 09 24" src="https://github.com/user-attachments/assets/e16496c1-46a2-4b20-94ed-8ce011d96d49" />
+- 📂 Confirmation of test DB structure and sample data insertion
+
+- A follow-up integration test with the GCS main page was successfully conducted, confirming that real-time data display for a multi-robot system (three robots total) is functional.
+<img src="https://github.com/user-attachments/assets/c4657a1d-0b61-4818-ac16-87e4244d363c" width="400"/>
+- 🔄 Screenshot of GCS displaying real-time data for each robot after DB integration
+
+### ✅ Conclusion
+
+- The integration between the test database and GCS was successfully completed, and real-time retrieval and display of data for multiple robots was verified to be working as intended.
+- Visual confirmation is required to ensure that robot positions based on GPS data are correctly reflected on Google Maps, along with the ability to track moving paths in real time.
+- The next development phase will focus on building a visualization module for the robot dashboard and implementing intuitive UI components for displaying key real-time metrics such as speed, direction, and sensor data.
+
+<p><br></p>
+
+---
+
 ## September 3, 2025
 
 ### 📝 To-Do (08/27/2025)
