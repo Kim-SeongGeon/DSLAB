@@ -13,9 +13,9 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 - STANAG-4586 기반 UGV 통신 프로토콜 설계 및 구현
 - **GCS(Ground Control Station) 개발**을 통한 다중 UGV 통합 관제 기능 구현
 - 지상 로봇 제어 시스템의 시각화 및 안정성 확보
-- VSM, SCM 모듈과 연동하여 실시간 임무 관리 및 데이터 모니터링 고도화
-- X-Plane과 Mission Planner 간의 실시간 데이터 교환 실험  
 - 통신 중 발생하는 데이터 손실률 측정 및 분석
+- VSM, SCM 모듈과 연동하여 실시간 임무 관리 및 데이터 모니터링 고도화
+- X-Plane과 Mission Planner 간의 실시간 데이터 교환 실험
 
 ### 🧰 도구
 - **시뮬레이션 도구**: X-Plane, Mission Planner  
