@@ -39,8 +39,9 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 **데이터베이스**  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-
 <p><br></p>
+
+---
 
 ## 2025년 10월 1일
 
@@ -79,9 +80,9 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
    - **카메라 영상 연동(RTSP/웹캠)**을 통한 실제 뷰 표출 확인   
    - Robot Detail 테이블에 필터링 및 상태 기반 정렬 기능 추가 예정   
 
----
-
 <p><br></p>
+
+---
 
 ## 2025년 9월 18일
 
