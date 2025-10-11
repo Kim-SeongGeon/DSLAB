@@ -39,6 +39,47 @@ This project focuses on designing and controlling communication based on the STA
 **Database**  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
+<p><br></p>
+
+---
+
+## October 1, 2025
+
+### 📝 To-Do (10/01/2025)
+
+- [X] Improved the UI of the GCS Total page and integrated center dashboard visualization
+- [X] Structured joystick control UI and visual information on the Operation page
+- [X] Built the Robot Detail page and implemented a status table for each robot
+
+### 📌 Notes
+
+- On **the Total page**, the previous map-based robot location display has been enhanced by adding a center dashboard visualization, enabling intuitive monitoring of the selected robot’s status (e.g., direction, posture).
+<img width="420" height="580" alt="25 10 01(Total Page)" src="https://github.com/user-attachments/assets/a23ef031-ec01-4ca8-bfe3-a1d2904359f9" />
+- 🗺️ GCS Total Page: An integrated UI combining map, center dashboard, and robot information table
+
+- Robot icons are displayed on the map based on real-time GPS coordinates, and the table below shows the current location, speed, battery level, and driving mode (e.g., autonomous) of the selected robot (R1).
+
+- On **the Operation page**, the UI structure for depth camera-based video transmission has been established. The left panel visualizes the ground surface (ground graph), the center displays front/rear/side camera feeds, and joystick trigger buttons are placed at the top for real-time control integration.
+<img width="420" height="580" alt="25 10 01(Operation Page)" src="https://github.com/user-attachments/assets/dd3f9b21-495b-4b5d-9149-42655e4703cb" />
+- 🎮 GCS Operation Page: A unified control interface integrating robot video, ground sensors, and joystick controls
+
+- **The Robot Detail page** displays a list-style table summarizing each robot’s overall status, including availability, current mission, last communication timestamp, and online/offline status.
+<img width="420" height="580" alt="25 10 01(Robot Detail Page)" src="https://github.com/user-attachments/assets/20705156-3c3b-4fc0-a593-d0dffc7bdabe" />
+- 📋 Robot Detail Page: A summary table that provides an overview of multiple robots at a glance
+
+- A button is placed at the bottom of the page, designed for future use with filter features or control command applications.
+
+### ✅ Conclusion
+
+- The UI prototypes for the three major GCS pages (Total / Operation / Robot Detail) are nearing completion. Each page’s functions have been clarified and separated according to the robot selection and control flow.
+- Key features by page:   
+   - Total: Visual representation of robot location and status (Map + Dashboard)
+   - Operation: Sensor-based video, joystick control, and related control functionalities
+   - Robot Detail: A comprehensive status summary table for all robots
+- Next steps:
+   - Test joystick control signal → ROS2 message transmission
+   - Verify real-time video rendering using RTSP/webcam feed integration
+   - Add filtering and status-based sorting features to the Robot Detail table
 
 <p><br></p>
 
