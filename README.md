@@ -43,6 +43,34 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## October 13, 2025
+
+### 📝 To-Do (10/01/2025)
+
+- [X] Changed the rendering structure of the robot dashboard in the Total page
+
+### 📌 Notes
+
+- Previously, the dashboard was constructed by creating and displaying individual images according to each robot's tilt and rotation angles. However, this approach caused an increase in the number of images when multiple robots were present, resulting in rendering delays and compatibility issues with future image processing functions (such as sensor/camera integration).
+- Accordingly, the robot dashboard structure has been changed to a method of "overlaying the actual dashboard frame on top of a background image that is wider than the display box."
+   - → A plan has been established to implement the effect of shifting the viewpoint by adjusting the coordinates of the background image based on its four corners in real time according to the robot's changing rotation values.
+<img width="420" height="580" alt="25 10 15 GCS" src="https://github.com/user-attachments/assets/0ea829f0-271a-447a-a1a5-166b1ef7ac1f" />
+- 🎯 GCS Total Page Updated
+
+- The dashboard view is currently well organized within the GCS UI, and in the future, additional design will be conducted to include numerical and status information in each area: the top (heading), left (pitch), and right (roll) of the dashboard.
+
+### ✅ Conclusion
+
+- By transitioning the visualization structure of the robot dashboard from a static image composition to a dynamic, coordinate-based movement system, support for multiple robots and future scalability (e.g., image processing, sensor integration) has been secured.
+- Next steps:   
+   - Design the UI for displaying information at the top/left/right of the dashboard
+   - Develop a visualization strategy for sensor values and status changes to be displayed in each area
+   - Test the performance and response speed of the coordinate-based rotation logic
+
+<p><br></p>
+
+---
+
 ## October 1, 2025
 
 ### 📝 To-Do (10/01/2025)
