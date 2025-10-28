@@ -43,6 +43,55 @@ This project focuses on designing and controlling communication based on the STA
 
 ---
 
+## October 22, 2025
+
+### 📝 To-Do (10/22/2025)
+
+- [X] Real-time reflection of GPS sensor data (GPS Lat/Lng) on the GCS map/status panel
+- [X] Configuration and verification of bridge communication path between UGV (ROS2 Humble, Ubuntu) and GCS (Windows)
+
+### 📌 Notes
+
+<img width="412" height="370" alt="System Diagram" src="https://github.com/user-attachments/assets/cca8ebd1-d0b1-416e-ab06-811cfeab32e2" /> 
+- 🔧 System Architecture: Sensor → Protocol Wrapper → Bridge → Web-based GCS Flow
+
+- A pipeline was constructed from sensor to protocol to bridge to GCS, synchronizing latitude and longitude values with both the map and status table.
+   - UGV (ROS2, Humble): Collects GPS sensor data → Protocol wrapper generates packets conforming to STANAG-4586 format → Encoded in HEX
+   - Bridge (Windows): Decodes received packets (including conversion to signed decimal values), parses, and converts them into an internal data model
+   - Web-based GCS:
+      - Updates and displays icon positions on the left map area according to coordinates
+      - Reflects the same data in the bottom status panel (Object ID, GPS, Speed, Battery, Mode)
+
+<img width="420" height="580" alt="GCS_25 10 22" src="https://github.com/user-attachments/assets/9bdc96a2-da25-4551-87aa-a4a35164d992" />
+<img width="420" height="580" alt="GCS_25 10 22(1)" src="https://github.com/user-attachments/assets/08e9aa6f-3eae-4795-a631-23ad81020a63" />
+- 🗺️ GCS Total Page: Real-time reflection of GPS values on map icons and status panel
+
+- Due to communication differences between heterogeneous OS environments (Ubuntu ↔ Windows), adjustments were made for format, timing, and network configurations
+- Message boundary handling and separation of coordinate decimal precision (display vs. calculation) were organized to ensure readability in the UI and precision in internal calculations
+
+### ✅ Conclusion
+
+- Successfully achieved end-to-end real-time location updates from ROS2 (Ubuntu) → Bridge (Windows) → Web-based GCS
+- Verified that map icon positions and status panel values are consistently updated based on identical coordinates
+- Next steps: Proceed with IMU (roll/pitch/yaw) integration to enable real-time robot attitude updates on the dashboard before the actual robot arrives
+- Future plans include expanding packet fields (e.g., speed, heading) and reinforcing exception handling logic for missing or delayed data
+
+<p><br></p>
+
+---
+
+## October 13, 2025
+
+### 📝 To-Do (10/13/2025)
+
+### 📌 Notes
+
+### ✅ Conclusion
+
+<p><br></p>
+
+---
+
 ## October 13, 2025
 
 ### 📝 To-Do (10/01/2025)
