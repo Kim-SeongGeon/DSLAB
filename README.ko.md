@@ -58,9 +58,10 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 - 센서 → 프로토콜 → 브리지 → GCS 파이프라인을 구축하여, 위도·경도 값을 지도와 상태표에 동기화함.
    - **UGV(ROS2, Humble)**: GPS 센서 값을 수집 → STANAG-4586 구조에 맞춘 프로토콜 래퍼에서 패킷 생성 → HEX 인코딩
    - **Bridge(Windows)**: 수신 패킷을 디코딩(부호 포함 10진수 변환) 후 파싱하여 내부 데이터 모델로 변환
-   - **Web-based(GCS)**
-        1. 좌측 지도에 아이콘을 좌표에 맞춰 표시/갱신
-        2. 하단 상태 표(객체 ID, GPS, 속도, 배터리, 모드)에 동일 데이터 반영
+   - **Web-based(GCS)**:
+      - 좌측 지도에 아이콘을 좌표에 맞춰 표시/갱신
+      - 하단 상태 표(객체 ID, GPS, 속도, 배터리, 모드)에 동일 데이터 반영
+        
 <img width="420" height="580" alt="GCS_25 10 22" src="https://github.com/user-attachments/assets/9bdc96a2-da25-4551-87aa-a4a35164d992" />
 <img width="420" height="580" alt="GCS_25 10 22(1)" src="https://github.com/user-attachments/assets/08e9aa6f-3eae-4795-a631-23ad81020a63" />
 - 🗺️ GCS Total 페이지: 지도 아이콘 및 상태 표에 GPS 값 실시간 반영 화면
