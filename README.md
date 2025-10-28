@@ -84,9 +84,25 @@ This project focuses on designing and controlling communication based on the STA
 
 ### 📝 To-Do (10/13/2025)
 
+- [X] Changed the rendering structure of the robot dashboard in the Total page
+
 ### 📌 Notes
 
+- Previously, the dashboard was constructed by creating and displaying individual images based on each robot’s tilt and rotation angles. However, this approach led to an increased number of images when multiple robots were present, causing rendering delays and potential compatibility issues with future image processing functions (such as sensor or camera integration).
+- Accordingly, the robot dashboard structure has been changed to a method of “overlaying the actual dashboard frame on top of a background image that is wider than the display box.”
+   - → A plan has been established to simulate a shifting viewpoint by adjusting the coordinates of the background image based on its four corners in real time according to the robot’s changing rotation values.
+ <img width="420" height="580" alt="25 10 15 GCS" src="https://github.com/user-attachments/assets/39bbc932-0743-4122-bf85-dc06997b4041" />
+- 🎯 GCS Total Page Updated
+
+- The dashboard view is currently well organized within the GCS UI, and going forward, additional design will be carried out to incorporate numerical and status information in each area of the dashboard: top (heading), left (pitch), and right (roll).
+
 ### ✅ Conclusion
+
+- By transitioning the visualization structure of the robot dashboard from a static image composition to a dynamic, coordinate-based movement system, we have secured support for multiple robots and future scalability (e.g., image processing, sensor integration).
+- Next steps:
+   - Design the UI for displaying information on the top/left/right of the dashboard
+   - Develop a visualization strategy for sensor values and status changes in each area
+   - Test performance and responsiveness of the coordinate-based rotation logic
 
 <p><br></p>
 
