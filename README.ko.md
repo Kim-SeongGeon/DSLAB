@@ -62,31 +62,74 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 ### 📝 할 일 (2025‑11-05)
 
 - [X] Transbot(ROS UGV, LiDAR + Depth Camera 장착) 기준 속도·배터리 데이터 추출
-- [X]념) 생성 및 bashrc에 ROS_MASTER_URI, ROS_IP 등 환경변수 등록
+- [X] UGV → GCS 간 TCP Socket 통신 채널 설계 및 구현
+- [X] Web-based GCS에서 속도·배터리 정보를 상태 표 + 게이지 형태로 실시간 시각화
 
-- 🧪 Transbot ROS 패키지 및 예제 구동
-   - Yahboom 공식 GitHub/매뉴얼 기준으로 Transbot ROS 패키지 클론 및 빌드
-      - (예: transbot_bringup, transbot_teleop, 센서 관련 노드 포함)
-   - roslaunch를 이용해 기본 bringup 실행:
-      - 모터 드라이버, IMU, LiDAR, 카메라 노드가 정상적으로 /cmd_vel, /scan, /camera/rgb/image_raw 등 토픽을 발행하는지 확인
-   - 노트북에서 동일 네트워크로 접속해:
-      - rostopic list, rostopic echo, rqt_graph로 토픽 플로우 확인
-      - 키보드 teleop로 크롤러 전/후진·좌우 회전이 정상적으로 동작하는지 바닥에서 간단하게 테스트
+### 📌 메모
 
-- 🌐 네트워크 및 GCS 연동 준비   
-   - 기존 GCS(Windows, Web-based)와 동일 서브넷으로 Transbot IP를 고정해, 향후 브리지/텔레메트리 통합 시 IP 관리 단순화      
-   - UGV(Transbot) 쪽 ROS Master를 기준으로, 외부 클라이언트(노트북, 향후 브리지 서버)가 슬레이브로 붙을 수 있도록 네트워크 경로 확인      
-   - 추후 STANAG-4586 포맷으로 GPS/IMU/속도 등을 내보낼 때를 대비해, 센서 토픽 명세 및 메시지 타입을 정리해둠      
+- 1. UGV(Transbot, ROS) 측: 속도·배터리 데이터 수집
+   - 데이터 소스 정리  
+      - 속도: /odom 또는 구동계 토픽에서 linear velocity(vx)를 m/s 단위로 수집
+      - 배터리: Transbot 확장보드에서 제공하는 배터리 상태 토픽(전압 → 퍼센트 환산) 구독
+   - Status 노드 구성
+      - transbot_status_publisher(가칭) 노드에서:
+         - speed_mps · speed_kmh 둘 다 계산해 내부 구조에 보관
+         - 배터리 전압 범위를 기준으로 0~100% 구간으로 Normalization
+      - 기존 GPS/IMU 파이프라인과 동일하게, 주기성 맞추기 위해 주기 10 Hz → Socket 송신은 2~5 Hz로 다운샘플링
+   - Socket 패킷 포맷
+      - 초기는 디버깅 편의를 위해 JSON 문자열 기반으로 설계:
+```
+{
+  "vehicle_id": "TRANSBOT_01",
+  "timestamp": 1730794800000,
+  "speed_mps": 0.35,
+  "speed_kmh": 1.26,
+  "battery_percent": 82.5
+  // 이후 STANAG-4586 필드 매핑을 위해, key 이름과 단위(속도·배터리)를 명시적으로 맞춰 둠
+}
+```
+
+- 2. UGV ↔ GCS 간 Socket 통신
+   - TCP Socket 채널 구성
+      - GCS(Windows)에 TCP 서버(예: 0.0.0.0:9001), Transbot(ROS)에 클라이언트로 설계
+      - ROS 노드에서:
+         - 연결 실패 시 재시도(backoff)
+         - 송신 버퍼가 쌓이지 않도록, 전송 실패 시 해당 주기의 데이터는 버리고 다음 데이터부터 재전송
+   - 메시지 경계 처리
+      - 여러 JSON이 한 번에 붙어서 들어오는 문제를 방지하기 위해, 개행 문자(\n) 기준으로 패킷 경계를 정의
+      - GCS 측에서 라인 단위로 수신 후 JSON 파싱
+   - 예외/끊김 처리
+      - 일정 시간(예: 3초) 이상 패킷이 없으면:
+         - 속도는 0으로 강제 표시
+         - 배터리는 마지막 값 유지 + “통신 지연” 아이콘만 표기
+      - 이렇게 해 두니, GCS UI에서 갑자기 값이 사라지지 않고 “연결 상태”와 “실제 상태”를 구분해서 볼 수 있음
+
+- 3. Web-based GCS 시각화
+   - 상태 표(Status Table) 확장
+      - 기존: 객체 ID / GPS / 속도 / 배터리 / 모드 등 중 GPS·모드 중심
+      - 변경: 속도·배터리 컬럼을 실제 Telemetry 기반으로 갱신
+         - 속도: 0.00 m/s (0.0 km/h) 포맷으로 표시
+         - 배터리: 82 % 형태 + 임계값(20% 이하)에서 색상 경고(노란색/빨간색)
+   - 게이지 및 그래프
+      - 우측/하단 영역에:
+         - 속도 게이지: 0 ~ MAX_SPEED(예: 2 m/s) 범위로 실시간 바 형태 업데이트
+         - 배터리 잔량 바: 색상 단계(초록 → 노랑 → 빨강)로 시각적 상태 표시
+      - 단순 숫자뿐 아니라 변화 추세를 보기 위해, 최근 30초 구간 속도·배터리 라인 그래프도 간단히 추가
+   - GPS/IMU와의 동기화
+      - 기존 위치(GPS), 자세(IMU)와 이번 속도·배터리 데이터를 동일 vehicle_id·timestamp 기준으로 병합
+      - 최종적으로 한 번의 패킷에서:
+         - 위치(GPS), 자세(IMU), 속도, 배터리가 같이 들어오도록 구조를 맞추는 방향으로 리팩토링 진행 중
 
 ### ✅ 결론
 
-- Transbot 하드웨어 조립과 기본 전원·통신 계층까지 안정적으로 구성 완료
-- ROS 기반 기본 예제(teleop, 센서 bringup)가 정상 동작하며, 랩실 네트워크에서 원격 접속·모니터링 가능한 상태를 확보함
-- 기존 시뮬레이션/가상 UGV 대신 실 기기 UGV 플랫폼(Transbot) 을 사용해 GCS-UGV 통신 실험을 진행할 수 있는 준비가 끝났음
+- Transbot에서 발생하는 속도·배터리 Telemetry 를 TCP Socket 기반으로 GCS까지 전달하고, Web UI에서 실시간으로 시각화하는 데 성공함
+- 단순 ROS 내부 모니터링이 아니라, UGV ↔ GCS 간 독립된 통신 채널 위에서 속도·배터리 정보를 다루게 되어, 추후 다른 플랫폼(다른 UGV/UGS)에도 재사용 가능한 구조를 확보함
+- GCS에서:
+   - 속도·배터리 상태를 한눈에 확인할 수 있어 운용자가 로봇 상태를 빠르게 판단 가능
+   - 패킷 누락·지연 시에도 UI가 갑자기 깨지지 않도록 Fallback/Timeout 로직이 동작함을 확인
 - 다음 단계:
-   - Transbot의 IMU, LiDAR, Depth Camera, 휠 엔코더 데이터를 기존 STANAG-4586 텔레메트리 포맷에 매핑
-   - 현재 Web 기반 GCS에서 위치·자세·속도·장애물 정보를 실시간으로 시각화할 수 있도록 브리지 연동
-   - 공식 SLAM 예제(GMapping/RTAB-Map 등)를 검토해, 실내 주행 데이터로 지도 생성 및 경로 추종 실험 계획 수립
+  - 동일 Socket/프로토콜 위에 장애물 거리( LiDAR ), 전방 깊이 정보(Depth Camera) 를 요약된 형태로 추가해, GCS에서 “속도/배터리/장애물 거리”를 한 번에 볼 수 있도록 확장
+   - 속도·배터리 로그를 파일 또는 DB에 누적 저장할 계획
 
 <p><br></p>
 
