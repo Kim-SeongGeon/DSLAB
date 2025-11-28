@@ -43,24 +43,26 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 
 ---
 
-## 2025년 10월 30일
+## 2025년 11월 13일
 
-### 📝 할 일 (2025‑10-30)
+### 📝 할 일 (2025‑11-13)
 
-- [X] Transbot(ROS UGV 키트) 모듈 조립
-- [X] 온보드 컴퓨팅 보드(OS, ROS, 의존 패키지) 설치 및 기본 환경 구성
-- [X] Transbot 공식 ROS 패키지 클론 및 예제 노드(teleop, bringup) 실행 테스트
-- [X] 실험실 네트워크 대역에 맞게 IP·SSH·ROS 마스터 통신 환경 정리
+- [X] 
 
 ### 📌 메모
 
-- 💻 온보드 환경 세팅
-   - Transbot 개발 보드(예: Raspberry Pi 4B / Jetson Nano)에 OS 이미지 플래시
-   - 첫 부팅 후 기본 설정:
-   - Wi-Fi / 유선 LAN 설정 후 랩실 라우터에 고정 IP 대역으로 할당
-   - SSH / VNC 활성화해서 원격 관리 가능한 상태로 구성
-   - ROS(Transbot 가이드에서 권장하는 버전, Melodic 계열) 및 의존 패키지 설치
-   - catkin_ws(또는 공식 제공 workspace) 생성 및 bashrc에 ROS_MASTER_URI, ROS_IP 등 환경변수 등록
+### ✅ 결론
+
+<p><br></p>
+
+---
+
+## 2025년 11월 5일
+
+### 📝 할 일 (2025‑11-05)
+
+- [X] Transbot(ROS UGV, LiDAR + Depth Camera 장착) 기준 속도·배터리 데이터 추출
+- [X]념) 생성 및 bashrc에 ROS_MASTER_URI, ROS_IP 등 환경변수 등록
 
 - 🧪 Transbot ROS 패키지 및 예제 구동
    - Yahboom 공식 GitHub/매뉴얼 기준으로 Transbot ROS 패키지 클론 및 빌드
