@@ -19,7 +19,7 @@ This project focuses on designing and controlling communication based on the STA
 
 ### 🧰 Tools
 - **Simulation Tools**: X-Plane, Mission Planner
-- **Protocol**: STANAG-4586, MAVLink, ROS2
+- **Protocol**: STANAG-4586, MAVLink, ROS1 Melodic, ROS2 Humble
 
 ### 🛠 Tech Stack
 **Languages**  
@@ -48,7 +48,7 @@ This project focuses on designing and controlling communication based on the STA
 ### 📝 To-Do (10/22/2025)
 
 - [X] Real-time reflection of GPS sensor data (GPS Lat/Lng) on the GCS map/status panel
-- [X] Configuration and verification of bridge communication path between UGV (ROS2 Humble, Ubuntu) and GCS (Windows)
+- [X] Configuration and verification of bridge communication path between UGV (ROS1 Melodic, Ubuntu) and GCS (Windows)
 
 ### 📌 Notes
 
@@ -56,7 +56,7 @@ This project focuses on designing and controlling communication based on the STA
 - 🔧 System Architecture: Sensor → Protocol Wrapper → Bridge → Web-based GCS Flow
 
 - A pipeline was constructed from sensor to protocol to bridge to GCS, synchronizing latitude and longitude values with both the map and status table.
-   - UGV (ROS2, Humble): Collects GPS sensor data → Protocol wrapper generates packets conforming to STANAG-4586 format → Encoded in HEX
+   - UGV (ROS1 Melodic): Collects GPS sensor data → Protocol wrapper generates packets conforming to STANAG-4586 format → Encoded in HEX
    - Bridge (Windows): Decodes received packets (including conversion to signed decimal values), parses, and converts them into an internal data model
    - Web-based GCS:
       - Updates and displays icon positions on the left map area according to coordinates
@@ -71,7 +71,7 @@ This project focuses on designing and controlling communication based on the STA
 
 ### ✅ Conclusion
 
-- Successfully achieved end-to-end real-time location updates from ROS2 (Ubuntu) → Bridge (Windows) → Web-based GCS
+- Successfully achieved end-to-end real-time location updates from ROS1 Melodic (Ubuntu) → Bridge (Windows) → Web-based GCS
 - Verified that map icon positions and status panel values are consistently updated based on identical coordinates
 - Next steps: Proceed with IMU (roll/pitch/yaw) integration to enable real-time robot attitude updates on the dashboard before the actual robot arrives
 - Future plans include expanding packet fields (e.g., speed, heading) and reinforcing exception handling logic for missing or delayed data
@@ -142,7 +142,7 @@ This project focuses on designing and controlling communication based on the STA
    - Operation: Sensor-based video, joystick control, and related control functionalities
    - Robot Detail: A comprehensive status summary table for all robots
 - Next steps:
-   - Test joystick control signal → ROS2 message transmission
+   - Test joystick control signal → ROS1 Melodic message transmission
    - Verify real-time video rendering using RTSP/webcam feed integration
    - Add filtering and status-based sorting features to the Robot Detail table
 
@@ -228,14 +228,14 @@ This project focuses on designing and controlling communication based on the STA
 <img width="420" height="580" alt="수정한 GCS" src="https://github.com/user-attachments/assets/a271854e-8027-4533-95d5-9cd68556f189" />
 - Image of the GCS developed so far
 
-- In addition, upon inspecting the previously secured autonomous vehicle, we found partial hardware damage and confirmed that its operating system is not compatible with the ROS2 environment.
+- In addition, upon inspecting the previously secured autonomous vehicle, we found partial hardware damage and confirmed that its operating system is not compatible with the ROS1 Melodic environment.
 - As it was deemed unsuitable for our research and development purposes (such as GCS integration, real-time control, and streaming), we decided to purchase a new robot.
 
 ### ✅ Conclusion
 
 - The robot information display on the main screen of the GCS is being improved with a UI that considers both real-time performance and readability.
 - The existing autonomous vehicle was deemed incompatible with the direction of our research, leading to the decision to replace it with a new robot.
-- The selected robot is optimized for a ROS2-based development environment, which is expected to offer advantages in future testing and scalability.
+- The selected robot is optimized for a ROS1 Melodic-based development environment, which is expected to offer advantages in future testing and scalability.
 - Moving forward, we plan to enhance GCS functionality by focusing on data table visualization and real-time streaming of sensor data.
 
 <p><br></p>
@@ -259,8 +259,8 @@ This project focuses on designing and controlling communication based on the STA
 
 - Additionally, the GCS display structure was initially planned as a dual-display setup, but for operational efficiency and compatibility with deployment environments, we are transitioning to a single-display layout with tab switching functionality.
 > 🔧 Additional system configuration checks:
-> - Confirm whether the OS installed on the autonomous robot used last year was based on ROS2
-> - Verify if the new small robot platform being considered supports ROS2 builds and provides the necessary interface for the current research objectives    
+> - Confirm whether the OS installed on the autonomous robot used last year was based on ROS1 Melodic
+> - Verify if the new small robot platform being considered supports ROS1 Melodic builds and provides the necessary interface for the current research objectives    
 > → The robot specifications will be organized and shared later    
 > https://www.eduino.kr/product/detail.html?product_no=9619&cate_no=181&display_group=1
 
@@ -325,7 +325,7 @@ This project focuses on designing and controlling communication based on the STA
   - Backend: **Spring Boot**
   - Database: **MySQL**
 - The actual robot is managed by the company and cannot be easily transported → We will build a small robot in the lab.
-  - Setup environment: **Jetson Nano, front/rear/left/right cameras (for Jetson Nano), LTE GPS module, ROS2**
+  - Setup environment: **Jetson Nano, front/rear/left/right cameras (for Jetson Nano), LTE GPS module, ROS1 Melodic**
   - The setup will replicate the actual robot environment as closely as possible.
 - The GCS will be configured with a dual-display setup (prototype images to be added later).
 
