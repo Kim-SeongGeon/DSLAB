@@ -92,6 +92,53 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 
 ---
 
+## 2025년 10월 30일
+
+### 📝 할 일 (2025‑10-22)
+
+- [X] Transbot(ROS UGV 키트) 모듈 조립
+- [X] 온보드 컴퓨팅 보드(OS, ROS, 의존 패키지) 설치 및 기본 환경 구성
+- [X] Transbot 공식 ROS 패키지 클론 및 예제 노드(teleop, bringup) 실행 테스트
+- [X] 실험실 네트워크 대역에 맞게 IP·SSH·ROS 마스터 통신 환경 정리
+
+### 📌 메모
+
+- 💻 온보드 환경 세팅
+   - Transbot 개발 보드(예: Raspberry Pi 4B / Jetson Nano)에 OS 이미지 플래시
+   - 첫 부팅 후 기본 설정:
+      - 로캘·키보드·타임존(KST) 설정
+      - Wi-Fi / 유선 LAN 설정 후 실험실 라우터에 고정 IP 대역으로 할당
+      - SSH / VNC 활성화해서 원격 관리 가능한 상태로 구성
+   - ROS(Transbot 가이드에서 권장하는 버전, Melodic/Noetic 계열) 및 의존 패키지 설치
+   - transbot_ws(catkin_ws와 같은 개념) 생성 및 bashrc에 ROS_MASTER_URI, ROS_IP 등 환경변수 등록
+
+- 🧪 Transbot ROS 패키지 및 예제 구동
+   - Yahboom 공식 GitHub/매뉴얼 기준으로 Transbot ROS 패키지 클론 및 빌드
+      - 예: transbot_bringup, transbot_teleop, 센서 관련 노드 포함
+   - roslaunch를 이용해 기본 bringup 실행:
+      - 모터 드라이버, IMU, LiDAR, 카메라 노드가 정상적으로 /cmd_vel, /scan, /camera/rgb/image_raw 등 토픽을 발행하는지 확인
+   - 노트북에서 동일 네트워크로 접속해:
+      - rostopic list, rostopic echo, rqt_graph로 토픽 플로우 확인
+      - 키보드 teleop로 크롤러 전/후진·좌우 회전이 정상적으로 동작하는지 바닥에서 짧게 테스트
+- 🌐 네트워크 및 GCS 연동 준비
+   - 기존 GCS(Windows, Web-based)와 동일 서브넷으로 Transbot IP를 고정해, 향후 브리지/텔레메트리 통합 시 IP 관리 단순화
+   - UGV(Transbot) 쪽 ROS Master를 기준으로, 외부 클라이언트(노트북, 향후 브리지 서버)가 슬레이브로 붙을 수 있도록 네트워크 경로 확인
+   - 추후 STANAG-4586 포맷으로 GPS/IMU/속도 등을 내보낼 때를 대비해, 센서 토픽 명세 및 메시지 타입을 정리해둠
+
+### ✅ 결론
+
+- Transbot 하드웨어 조립과 기본 전원·통신 계층까지 안정적으로 구성 완료
+- ROS 기반 기본 예제(teleop, 센서 bringup)가 정상 동작하며, 실험실 네트워크에서 원격 접속·모니터링 가능한 상태를 확보함
+- 기존 시뮬레이션/가상 UGV 대신 실 기기 UGV 플랫폼(Transbot) 을 사용해 GCS-UGV 통신 실험을 진행할 수 있는 준비가 끝났음
+- 다음 단계:
+      - Transbot의 IMU, LiDAR, Depth Camera, 휠 엔코더 데이터를 기존 STANAG-4586 텔레메트리 포맷에 매핑
+      - 현재 Web 기반 GCS에서 위치·자세·속도·장애물 정보를 실시간으로 시각화할 수 있도록 브리지 연동
+      - 공식 SLAM 예제(GMapping/RTAB-Map 등)를 검토해, 실내 주행 데이터로 지도 생성 및 경로 추종 실험 계획 수립
+
+<p><br></p>
+
+---
+
 ## 2025년 10월 22일
 
 ### 📝 할 일 (2025‑10-22)
