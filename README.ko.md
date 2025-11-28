@@ -71,10 +71,10 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
       - rostopic list, rostopic echo, rqt_graph로 토픽 플로우 확인
       - 키보드 teleop로 크롤러 전/후진·좌우 회전이 정상적으로 동작하는지 바닥에서 간단하게 테스트
 
-- 🌐 네트워크 및 GCS 연동 준비
-   - 기존 GCS(Windows, Web-based)와 동일 서브넷으로 Transbot IP를 고정해, 향후 브리지/텔레메트리 통합 시 IP 관리 단순화
-   - UGV(Transbot) 쪽 ROS Master를 기준으로, 외부 클라이언트(노트북, 향후 브리지 서버)가 슬레이브로 붙을 수 있도록 네트워크 경로 확인
-   - 추후 STANAG-4586 포맷으로 GPS/IMU/속도 등을 내보낼 때를 대비해, 센서 토픽 명세 및 메시지 타입을 정리해둠
+- 🌐 네트워크 및 GCS 연동 준비   
+   - 기존 GCS(Windows, Web-based)와 동일 서브넷으로 Transbot IP를 고정해, 향후 브리지/텔레메트리 통합 시 IP 관리 단순화      
+   - UGV(Transbot) 쪽 ROS Master를 기준으로, 외부 클라이언트(노트북, 향후 브리지 서버)가 슬레이브로 붙을 수 있도록 네트워크 경로 확인      
+   - 추후 STANAG-4586 포맷으로 GPS/IMU/속도 등을 내보낼 때를 대비해, 센서 토픽 명세 및 메시지 타입을 정리해둠      
 
 ### ✅ 결론
 
@@ -82,9 +82,9 @@ DS LAB 프로젝트는 ** 다중 UGV(무인 지상 차량)**와 GCS 간의 실�
 - ROS 기반 기본 예제(teleop, 센서 bringup)가 정상 동작하며, 랩실 네트워크에서 원격 접속·모니터링 가능한 상태를 확보함
 - 기존 시뮬레이션/가상 UGV 대신 실 기기 UGV 플랫폼(Transbot) 을 사용해 GCS-UGV 통신 실험을 진행할 수 있는 준비가 끝났음
 - 다음 단계:
-      - Transbot의 IMU, LiDAR, Depth Camera, 휠 엔코더 데이터를 기존 STANAG-4586 텔레메트리 포맷에 매핑
-      - 현재 Web 기반 GCS에서 위치·자세·속도·장애물 정보를 실시간으로 시각화할 수 있도록 브리지 연동
-      - 공식 SLAM 예제(GMapping/RTAB-Map 등)를 검토해, 실내 주행 데이터로 지도 생성 및 경로 추종 실험 계획 수립
+   - Transbot의 IMU, LiDAR, Depth Camera, 휠 엔코더 데이터를 기존 STANAG-4586 텔레메트리 포맷에 매핑
+   - 현재 Web 기반 GCS에서 위치·자세·속도·장애물 정보를 실시간으로 시각화할 수 있도록 브리지 연동
+   - 공식 SLAM 예제(GMapping/RTAB-Map 등)를 검토해, 실내 주행 데이터로 지도 생성 및 경로 추종 실험 계획 수립
 
 <p><br></p>
 
